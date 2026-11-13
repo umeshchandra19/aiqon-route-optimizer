@@ -1,0 +1,807 @@
+shipment_id,route_id,path,modes,n_legs,family,cost_usd,transit_days_nominal,transit_days_expected,delay_probability,congestion,geopolitical_risk
+S001,S001-R1,SHA > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,3596,37.4,38.3,0.333,0.36,0.74
+S001,S001-R2,SHA > HAM,air,1,Air,55091,2.0,2.1,0.059,0.44,0.1
+S001,S001-R3,SHA > PAN > RTM > HAM,sea>sea>road,3,Panama,4199,41.0,41.6,0.223,0.41,0.16
+S001,S001-R4,SHA > HAM,rail,1,Eurasia rail,7345,17.5,18.1,0.152,0.57,0.62
+S002,S002-R1,SHA > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,597,32.2,32.9,0.259,0.36,0.72
+S002,S002-R2,SHA > RTM,air,1,Air,11091,2.0,2.0,0.042,0.39,0.12
+S002,S002-R3,SHA > PAN > RTM,sea>sea,2,Panama,688,39.5,40.0,0.177,0.45,0.16
+S002,S002-R4,SHA > HAM > RTM,rail>road,2,Eurasia rail,1669,21.2,21.6,0.143,0.48,0.55
+S003,S003-R1,SZX > LAX,sea,1,Transpacific / US land-bridge,2349,14.3,14.8,0.125,0.62,0.06
+S003,S003-R2,SZX > LAX,air,1,Air,56740,1.6,1.6,0.032,0.3,0.07
+S003,S003-R3,SZX > PAN > RTM > NYC > LAX,sea>sea>sea>rail,4,Panama,8433,60.6,61.5,0.346,0.33,0.13
+S003,S003-R4,SZX > SIN > LAX,sea>sea,2,Transpacific / US land-bridge,3359,24.6,25.1,0.203,0.5,0.11
+S003,S003-R5,SZX > SIN > SHA > LAX,sea>sea>sea,3,Transpacific / US land-bridge,4231,29.5,30.5,0.302,0.61,0.15
+S004,S004-R1,NSA > SUZ > RTM,sea>sea,2,Suez / Red Sea,1981,20.7,21.1,0.176,0.24,0.78
+S004,S004-R2,NSA > RTM,air,1,Air,50704,2.1,2.2,0.07,0.27,0.04
+S004,S004-R3,NSA > CMB > CPT > RTM,sea>sea>sea,3,Cape of Good Hope,3480,36.5,37.2,0.2,0.24,0.13
+S004,S004-R4,NSA > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,3173,34.7,35.4,0.281,0.38,0.79
+S004,S004-R5,NSA > CMB > SIN > SUZ > RTM,sea>sea>sea>sea,4,Suez / Red Sea,3776,38.2,38.8,0.298,0.36,0.79
+S005,S005-R1,SZX > PAN > NYC,sea>sea,2,Panama,6751,31.6,32.5,0.284,0.4,0.11
+S005,S005-R2,SZX > NYC,air,1,Air,107112,2.1,2.1,0.044,0.42,0.12
+S005,S005-R3,SZX > SIN > CMB > CPT > NYC,sea>sea>sea>sea,4,Cape of Good Hope,9864,42.6,43.4,0.25,0.25,0.1
+S006,S006-R1,SZX > PAN > NYC,sea>sea,2,Panama,1598,31.1,31.6,0.163,0.51,0.11
+S006,S006-R2,SZX > NYC,air,1,Air,25569,2.0,2.1,0.043,0.4,0.16
+S006,S006-R3,SZX > SIN > CMB > CPT > NYC,sea>sea>sea>sea,4,Cape of Good Hope,2145,44.3,45.0,0.284,0.32,0.15
+S006,S006-R4,SZX > SIN > LAX > NYC,sea>sea>rail,3,Transpacific / US land-bridge,2471,33.6,34.5,0.327,0.57,0.18
+S006,S006-R5,SZX > SIN > PAN > NYC,sea>sea>sea,3,Panama,2036,40.6,41.3,0.271,0.42,0.14
+S007,S007-R1,SZX > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,4485,29.7,30.4,0.238,0.39,0.81
+S007,S007-R2,SZX > RTM,air,1,Air,81741,1.9,2.0,0.069,0.5,0.09
+S007,S007-R3,SZX > PAN > RTM,sea>sea,2,Panama,5267,39.8,40.2,0.164,0.3,0.15
+S007,S007-R4,SZX > SIN > CMB > CPT > RTM,sea>sea>sea>sea,4,Cape of Good Hope,6385,42.2,42.8,0.244,0.23,0.12
+S007,S007-R5,SZX > SIN > NSA > SUZ > RTM,sea>sea>sea>sea,4,Suez / Red Sea,5776,36.2,36.9,0.277,0.35,0.71
+S008,S008-R1,SIN > PAN > NYC,sea>sea,2,Panama,4035,32.2,32.7,0.18,0.34,0.12
+S008,S008-R2,SIN > NYC,air,1,Air,66895,2.6,2.7,0.04,0.32,0.12
+S008,S008-R3,SIN > CMB > CPT > NYC,sea>sea>sea,3,Cape of Good Hope,4517,36.1,36.8,0.239,0.21,0.12
+S008,S008-R4,SIN > NSA > CMB > CPT > NYC,sea>sea>sea>sea,4,Cape of Good Hope,5736,45.9,46.6,0.281,0.27,0.12
+S008,S008-R5,SIN > SZX > LAX > NYC,sea>sea>rail,3,Transpacific / US land-bridge,6067,30.7,31.6,0.268,0.63,0.15
+S009,S009-R1,SHA > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,3567,32.1,32.7,0.257,0.37,0.76
+S009,S009-R2,SHA > RTM,air,1,Air,62459,1.8,1.9,0.053,0.44,0.14
+S009,S009-R3,SHA > PAN > RTM,sea>sea,2,Panama,4051,38.4,38.8,0.154,0.39,0.18
+S009,S009-R4,SHA > SIN > CMB > CPT > RTM,sea>sea>sea>sea,4,Cape of Good Hope,5090,44.3,45.1,0.289,0.3,0.1
+S009,S009-R5,SHA > LAX > NYC > HAM > RTM,sea>rail>sea>road,4,Transpacific / US land-bridge,6762,42.1,43.2,0.348,0.6,0.09
+S010,S010-R1,NSA > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,3515,33.9,34.6,0.249,0.45,0.79
+S010,S010-R2,NSA > NYC,air,1,Air,64407,3.0,3.1,0.049,0.43,0.1
+S010,S010-R3,NSA > CMB > CPT > NYC,sea>sea>sea,3,Cape of Good Hope,3731,38.5,39.3,0.252,0.33,0.12
+S010,S010-R4,NSA > SIN > PAN > NYC,sea>sea>sea,3,Panama,4607,44.1,44.8,0.292,0.29,0.12
+S011,S011-R1,SIN > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,3504,35.8,36.7,0.309,0.33,0.79
+S011,S011-R2,SIN > NYC,air,1,Air,62823,2.8,2.9,0.048,0.35,0.12
+S011,S011-R3,SIN > PAN > NYC,sea>sea,2,Panama,3518,33.5,34.1,0.215,0.25,0.21
+S011,S011-R4,SIN > CMB > CPT > NYC,sea>sea>sea,3,Cape of Good Hope,3746,39.1,39.7,0.25,0.3,0.07
+S011,S011-R5,SIN > SUZ > RTM > HAM > NYC,sea>sea>road>sea,4,Suez / Red Sea,4121,39.5,40.4,0.324,0.39,0.79
+S012,S012-R1,SZX > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,4827,36.0,36.8,0.332,0.43,0.76
+S012,S012-R2,SZX > HAM,air,1,Air,81528,1.9,1.9,0.042,0.38,0.07
+S012,S012-R3,SZX > PAN > RTM > HAM,sea>sea>road,3,Panama,6013,42.6,43.1,0.226,0.35,0.12
+S012,S012-R4,SZX > HAM,rail,1,Eurasia rail,12077,18.1,18.7,0.136,0.54,0.58
+S012,S012-R5,SZX > PAN > NYC > HAM,sea>sea>sea,3,Panama,6235,44.7,45.6,0.283,0.33,0.12
+S013,S013-R1,SIN > LAX,sea,1,Transpacific / US land-bridge,4830,17.2,17.6,0.137,0.54,0.03
+S013,S013-R2,SIN > LAX,air,1,Air,117935,2.3,2.3,0.046,0.36,0.13
+S013,S013-R3,SIN > PAN > NYC > LAX,sea>sea>rail,3,Panama,12961,43.6,44.6,0.352,0.42,0.07
+S013,S013-R4,SIN > SZX > LAX,sea>sea,2,Transpacific / US land-bridge,6183,21.6,22.1,0.196,0.63,0.14
+S013,S013-R5,SIN > SHA > LAX,sea>sea,2,Transpacific / US land-bridge,6017,23.9,24.5,0.206,0.57,0.11
+S014,S014-R1,NSA > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,7451,32.7,33.5,0.289,0.35,0.75
+S014,S014-R2,NSA > NYC,air,1,Air,147901,2.9,2.9,0.048,0.29,0.1
+S014,S014-R3,NSA > CMB > CPT > NYC,sea>sea>sea,3,Cape of Good Hope,7926,36.3,36.9,0.206,0.19,0.14
+S015,S015-R1,SZX > LAX,sea,1,Transpacific / US land-bridge,905,14.7,15.0,0.137,0.71,0.16
+S015,S015-R2,SZX > LAX,air,1,Air,21096,1.8,1.9,0.049,0.41,0.14
+S015,S015-R3,SZX > PAN > NYC > LAX,sea>sea>rail,3,Panama,2461,38.3,39.1,0.311,0.34,0.07
+S015,S015-R4,SZX > SIN > LAX,sea>sea,2,Transpacific / US land-bridge,1463,25.5,26.1,0.192,0.55,0.15
+S015,S015-R5,SZX > SIN > SHA > LAX,sea>sea>sea,3,Transpacific / US land-bridge,1706,29.2,30.0,0.271,0.52,0.15
+S016,S016-R1,SHA > PAN > NYC,sea>sea,2,Panama,5526,30.0,30.4,0.166,0.36,0.14
+S016,S016-R2,SHA > NYC,air,1,Air,94657,1.9,2.0,0.072,0.49,0.12
+S016,S016-R3,SHA > PAN > RTM > CPT > NYC,sea>sea>sea>sea,4,Cape of Good Hope,11993,72.1,73.1,0.331,0.28,0.14
+S016,S016-R4,SHA > SIN > SUZ > RTM > NYC,sea>sea>sea>sea,4,Suez / Red Sea,8102,45.9,47.4,0.432,0.39,0.78
+S016,S016-R5,SHA > SIN > CMB > CPT > NYC,sea>sea>sea>sea,4,Cape of Good Hope,8684,45.9,46.8,0.31,0.33,0.12
+S017,S017-R1,SIN > SUZ > RTM,sea>sea,2,Suez / Red Sea,573,24.0,24.8,0.26,0.3,0.76
+S017,S017-R2,SIN > RTM,air,1,Air,14334,2.0,2.1,0.047,0.35,0.09
+S017,S017-R3,SIN > PAN > RTM,sea>sea,2,Panama,1024,40.8,41.3,0.154,0.28,0.14
+S017,S017-R4,SIN > CMB > CPT > RTM,sea>sea>sea,3,Cape of Good Hope,908,35.9,36.6,0.207,0.23,0.14
+S018,S018-R1,SHA > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,1047,38.4,39.2,0.317,0.35,0.76
+S018,S018-R2,SHA > HAM,air,1,Air,18303,2.1,2.1,0.035,0.42,0.1
+S018,S018-R3,SHA > PAN > RTM > HAM,sea>sea>road,3,Panama,1284,42.8,43.5,0.244,0.42,0.18
+S019,S019-R1,SIN > SUZ > RTM,sea>sea,2,Suez / Red Sea,3159,23.5,24.0,0.212,0.34,0.77
+S019,S019-R2,SIN > RTM,air,1,Air,77859,2.1,2.1,0.049,0.16,0.1
+S019,S019-R3,SIN > CMB > CPT > RTM,sea>sea>sea,3,Cape of Good Hope,4525,36.2,37.1,0.266,0.23,0.17
+S020,S020-R1,SZX > PAN > NYC,sea>sea,2,Panama,1780,31.5,32.1,0.226,0.36,0.17
+S020,S020-R2,SZX > NYC,air,1,Air,29835,2.1,2.1,0.053,0.43,0.14
+S020,S020-R3,SZX > HAM > NYC,rail>sea,2,Eurasia rail,4935,31.4,32.2,0.165,0.54,0.55
+S020,S020-R4,SZX > SIN > PAN > NYC,sea>sea>sea,3,Panama,2386,39.1,39.8,0.227,0.39,0.1
+S020,S020-R5,SZX > PAN > RTM > NYC,sea>sea>sea,3,Panama,2627,50.8,51.8,0.307,0.37,0.17
+S021,S021-R1,SIN > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,3464,36.3,37.2,0.304,0.42,0.73
+S021,S021-R2,SIN > NYC,air,1,Air,56471,2.7,2.7,0.041,0.24,0.09
+S021,S021-R3,SIN > PAN > NYC,sea>sea,2,Panama,3766,32.6,33.1,0.17,0.41,0.13
+S022,S022-R1,SIN > LAX,sea,1,Transpacific / US land-bridge,804,18.7,19.1,0.14,0.47,0.15
+S022,S022-R2,SIN > LAX,air,1,Air,18001,2.4,2.5,0.051,0.35,0.08
+S022,S022-R3,SIN > CMB > CPT > NYC > LAX,sea>sea>sea>rail,4,Cape of Good Hope,2077,46.2,47.3,0.329,0.24,0.13
+S022,S022-R4,SIN > SZX > LAX,sea>sea,2,Transpacific / US land-bridge,988,22.2,22.7,0.167,0.58,0.13
+S022,S022-R5,SIN > SHA > LAX,sea>sea,2,Transpacific / US land-bridge,1039,22.4,23.1,0.228,0.54,0.12
+S023,S023-R1,SZX > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,3065,36.0,37.0,0.328,0.38,0.69
+S023,S023-R2,SZX > HAM,air,1,Air,49071,2.0,2.0,0.049,0.41,0.14
+S023,S023-R3,SZX > PAN > RTM > HAM,sea>sea>road,3,Panama,3717,40.5,41.0,0.195,0.28,0.2
+S024,S024-R1,SZX > LAX,sea,1,Transpacific / US land-bridge,1570,15.0,15.5,0.18,0.67,0.11
+S024,S024-R2,SZX > LAX,air,1,Air,40106,1.5,1.5,0.057,0.44,0.11
+S024,S024-R3,SZX > PAN > RTM > NYC > LAX,sea>sea>sea>rail,4,Panama,5614,61.8,62.9,0.351,0.4,0.2
+S025,S025-R1,SIN > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,3273,29.3,29.8,0.234,0.45,0.75
+S025,S025-R2,SIN > HAM,air,1,Air,67251,1.9,2.0,0.058,0.35,0.04
+S025,S025-R3,SIN > CMB > CPT > RTM > HAM,sea>sea>sea>road,4,Cape of Good Hope,5154,39.2,39.9,0.254,0.22,0.11
+S026,S026-R1,SZX > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,1822,35.7,36.6,0.303,0.43,0.76
+S026,S026-R2,SZX > HAM,air,1,Air,28569,2.0,2.0,0.031,0.5,0.0
+S026,S026-R3,SZX > PAN > RTM > HAM,sea>sea>road,3,Panama,2378,45.4,45.9,0.24,0.41,0.14
+S026,S026-R4,SZX > HAM,rail,1,Eurasia rail,4495,19.6,20.2,0.148,0.55,0.56
+S026,S026-R5,SZX > PAN > NYC > RTM > HAM,sea>sea>sea>road,4,Panama,2802,49.2,49.9,0.304,0.39,0.14
+S027,S027-R1,NSA > SIN > LAX,sea>sea,2,Transpacific / US land-bridge,2182,28.0,28.5,0.2,0.58,0.15
+S027,S027-R2,NSA > LAX,air,1,Air,41314,2.8,2.9,0.059,0.38,0.14
+S027,S027-R3,NSA > CMB > CPT > NYC > LAX,sea>sea>sea>rail,4,Cape of Good Hope,4036,44.6,45.4,0.294,0.31,0.11
+S027,S027-R4,NSA > SUZ > SIN > SZX > LAX,sea>sea>sea>sea,4,Suez / Red Sea,3536,48.2,49.9,0.465,0.49,0.73
+S027,S027-R5,NSA > CMB > SIN > SZX > LAX,sea>sea>sea>sea,4,Transpacific / US land-bridge,2992,34.7,35.5,0.304,0.5,0.14
+S028,S028-R1,SIN > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,2178,29.9,30.5,0.258,0.47,0.77
+S028,S028-R2,SIN > HAM,air,1,Air,49736,2.2,2.3,0.042,0.32,0.04
+S028,S028-R3,SIN > PAN > RTM > HAM,sea>sea>road,3,Panama,4034,47.1,47.5,0.19,0.26,0.14
+S028,S028-R4,SIN > SHA > HAM,sea>rail,2,Eurasia rail,7086,27.0,27.7,0.186,0.54,0.6
+S028,S028-R5,SIN > NSA > SUZ > RTM > HAM,sea>sea>sea>road,4,Suez / Red Sea,3259,33.7,34.5,0.319,0.32,0.78
+S029,S029-R1,SIN > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,4035,29.1,29.8,0.273,0.36,0.79
+S029,S029-R2,SIN > HAM,air,1,Air,77903,2.2,2.2,0.04,0.28,0.09
+S029,S029-R3,SIN > CMB > CPT > RTM > HAM,sea>sea>sea>road,4,Cape of Good Hope,6353,40.4,41.0,0.239,0.31,0.12
+S029,S029-R4,SIN > PAN > RTM > HAM,sea>sea>road,3,Panama,6865,46.5,47.1,0.204,0.28,0.19
+S030,S030-R1,NSA > SIN > LAX,sea>sea,2,Transpacific / US land-bridge,2942,27.8,28.5,0.241,0.52,0.14
+S030,S030-R2,NSA > LAX,air,1,Air,55155,3.1,3.1,0.055,0.29,0.06
+S030,S030-R3,NSA > CMB > CPT > NYC > LAX,sea>sea>sea>rail,4,Cape of Good Hope,5388,46.1,47.0,0.323,0.24,0.12
+S031,S031-R1,NSA > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,3126,33.5,34.3,0.303,0.35,0.74
+S031,S031-R2,NSA > NYC,air,1,Air,61967,2.7,2.7,0.062,0.24,0.06
+S031,S031-R3,NSA > CMB > CPT > NYC,sea>sea>sea,3,Cape of Good Hope,3875,36.7,37.4,0.238,0.28,0.17
+S031,S031-R4,NSA > CMB > CPT > RTM > NYC,sea>sea>sea>sea,4,Cape of Good Hope,4897,48.7,49.7,0.317,0.25,0.17
+S032,S032-R1,SIN > SUZ > RTM,sea>sea,2,Suez / Red Sea,929,23.3,24.1,0.243,0.41,0.74
+S032,S032-R2,SIN > RTM,air,1,Air,23365,2.1,2.1,0.043,0.22,0.05
+S032,S032-R3,SIN > CMB > CPT > RTM,sea>sea>sea,3,Cape of Good Hope,1500,37.4,38.0,0.225,0.19,0.12
+S032,S032-R4,SIN > PAN > RTM,sea>sea,2,Panama,1674,42.3,42.9,0.192,0.25,0.2
+S032,S032-R5,SIN > CMB > NSA > SUZ > RTM,sea>sea>sea>sea,4,Suez / Red Sea,1515,33.2,34.0,0.304,0.25,0.78
+S033,S033-R1,SZX > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,903,30.5,31.1,0.279,0.29,0.75
+S033,S033-R2,SZX > RTM,air,1,Air,15305,1.9,2.0,0.056,0.32,0.06
+S033,S033-R3,SZX > PAN > RTM,sea>sea,2,Panama,1100,37.5,38.1,0.189,0.42,0.12
+S033,S033-R4,SZX > HAM > RTM,rail>road,2,Eurasia rail,2694,24.0,24.7,0.174,0.59,0.52
+S033,S033-R5,SZX > PAN > NYC > CPT > RTM,sea>sea>sea>sea,4,Cape of Good Hope,1948,64.6,65.7,0.361,0.29,0.06
+S034,S034-R1,SIN > SUZ > RTM,sea>sea,2,Suez / Red Sea,1591,22.8,23.5,0.256,0.39,0.81
+S034,S034-R2,SIN > RTM,air,1,Air,38062,2.1,2.1,0.05,0.26,0.03
+S034,S034-R3,SIN > PAN > RTM,sea>sea,2,Panama,2960,42.5,43.0,0.195,0.35,0.08
+S034,S034-R4,SIN > PAN > NYC > CPT > RTM,sea>sea>sea>sea,4,Cape of Good Hope,5126,70.5,71.4,0.305,0.26,0.08
+S035,S035-R1,NSA > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,1284,26.1,26.9,0.256,0.29,0.77
+S035,S035-R2,NSA > HAM,air,1,Air,28125,2.3,2.4,0.055,0.37,0.11
+S035,S035-R3,NSA > CMB > CPT > RTM > HAM,sea>sea>sea>road,4,Cape of Good Hope,2255,39.2,39.9,0.27,0.14,0.11
+S035,S035-R4,NSA > CMB > SUZ > RTM > HAM,sea>sea>sea>road,4,Suez / Red Sea,1790,30.6,31.5,0.314,0.31,0.73
+S036,S036-R1,SHA > LAX,sea,1,Transpacific / US land-bridge,1386,14.1,14.6,0.153,0.76,0.11
+S036,S036-R2,SHA > LAX,air,1,Air,33386,1.4,1.5,0.056,0.45,0.08
+S036,S036-R3,SHA > PAN > NYC > LAX,sea>sea>rail,3,Panama,3722,37.4,38.3,0.282,0.33,0.11
+S036,S036-R4,SHA > SIN > LAX,sea>sea,2,Transpacific / US land-bridge,2316,26.4,27.0,0.213,0.53,0.09
+S036,S036-R5,SHA > SIN > SZX > LAX,sea>sea>sea,3,Transpacific / US land-bridge,2647,30.0,30.6,0.228,0.49,0.12
+S037,S037-R1,SZX > PAN > NYC,sea>sea,2,Panama,3743,32.5,33.0,0.193,0.36,0.21
+S037,S037-R2,SZX > NYC,air,1,Air,56944,2.2,2.2,0.049,0.37,0.15
+S037,S037-R3,SZX > SIN > CMB > CPT > NYC,sea>sea>sea>sea,4,Cape of Good Hope,5360,45.0,46.0,0.303,0.3,0.1
+S038,S038-R1,SIN > PAN > NYC,sea>sea,2,Panama,1314,31.9,32.3,0.169,0.19,0.16
+S038,S038-R2,SIN > NYC,air,1,Air,22080,3.0,3.0,0.061,0.39,0.11
+S038,S038-R3,SIN > SHA > PAN > NYC,sea>sea>sea,3,Panama,1640,38.3,38.7,0.184,0.27,0.18
+S039,S039-R1,NSA > SIN > LAX,sea>sea,2,Transpacific / US land-bridge,3508,26.7,27.2,0.179,0.55,0.13
+S039,S039-R2,NSA > LAX,air,1,Air,67921,3.1,3.2,0.069,0.3,0.1
+S039,S039-R3,NSA > CMB > CPT > NYC > LAX,sea>sea>sea>rail,4,Cape of Good Hope,7103,45.3,46.5,0.337,0.29,0.1
+S039,S039-R4,NSA > SUZ > SIN > SZX > LAX,sea>sea>sea>sea,4,Suez / Red Sea,5915,47.5,48.8,0.409,0.47,0.74
+S039,S039-R5,NSA > SIN > SHA > LAX,sea>sea>sea,3,Transpacific / US land-bridge,4326,32.5,33.2,0.23,0.57,0.17
+S040,S040-R1,SIN > LAX,sea,1,Transpacific / US land-bridge,1117,17.6,18.0,0.155,0.56,0.04
+S040,S040-R2,SIN > LAX,air,1,Air,28297,2.4,2.4,0.04,0.25,0.13
+S040,S040-R3,SIN > CMB > CPT > NYC > LAX,sea>sea>sea>rail,4,Cape of Good Hope,2932,45.3,46.4,0.392,0.26,0.08
+S040,S040-R4,SIN > SZX > LAX,sea>sea,2,Transpacific / US land-bridge,1452,20.8,21.4,0.233,0.49,0.14
+S041,S041-R1,NSA > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,3255,33.8,34.6,0.314,0.31,0.74
+S041,S041-R2,NSA > NYC,air,1,Air,60104,2.7,2.8,0.084,0.45,0.06
+S041,S041-R3,NSA > CMB > CPT > NYC,sea>sea>sea,3,Cape of Good Hope,3846,37.4,38.0,0.212,0.28,0.13
+S041,S041-R4,NSA > SUZ > PIR > HAM > NYC,sea>sea>sea>sea,4,Suez / Red Sea,3705,39.1,40.0,0.364,0.35,0.74
+S042,S042-R1,SZX > LAX,sea,1,Transpacific / US land-bridge,1266,15.5,15.8,0.132,0.59,0.23
+S042,S042-R2,SZX > LAX,air,1,Air,28465,1.6,1.6,0.04,0.4,0.12
+S042,S042-R3,SZX > SIN > PAN > NYC > LAX,sea>sea>sea>rail,4,Panama,3806,49.3,50.2,0.365,0.36,0.13
+S043,S043-R1,SZX > PAN > NYC,sea>sea,2,Panama,2339,31.1,31.5,0.177,0.43,0.12
+S043,S043-R2,SZX > NYC,air,1,Air,39770,1.9,2.0,0.051,0.38,0.11
+S043,S043-R3,SZX > SIN > CMB > CPT > NYC,sea>sea>sea>sea,4,Cape of Good Hope,3224,45.0,45.8,0.264,0.31,0.12
+S044,S044-R1,SHA > LAX,sea,1,Transpacific / US land-bridge,874,14.0,14.4,0.116,0.63,0.08
+S044,S044-R2,SHA > LAX,air,1,Air,25458,1.5,1.5,0.059,0.5,0.15
+S044,S044-R3,SHA > PAN > NYC > LAX,sea>sea>rail,3,Panama,2929,38.9,39.6,0.257,0.33,0.15
+S045,S045-R1,SZX > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,5370,31.2,32.1,0.297,0.34,0.8
+S045,S045-R2,SZX > RTM,air,1,Air,101460,2.1,2.1,0.052,0.48,0.06
+S045,S045-R3,SZX > PAN > RTM,sea>sea,2,Panama,6416,39.5,39.9,0.154,0.34,0.23
+S045,S045-R4,SZX > SIN > CMB > CPT > RTM,sea>sea>sea>sea,4,Cape of Good Hope,7844,43.8,44.7,0.321,0.21,0.16
+S045,S045-R5,SZX > SIN > PAN > RTM,sea>sea>sea,3,Panama,8330,48.2,48.8,0.246,0.33,0.16
+S046,S046-R1,NSA > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,4393,25.8,26.3,0.208,0.36,0.75
+S046,S046-R2,NSA > HAM,air,1,Air,95965,2.4,2.4,0.06,0.34,0.16
+S046,S046-R3,NSA > CMB > CPT > RTM > HAM,sea>sea>sea>road,4,Cape of Good Hope,7620,39.4,40.3,0.313,0.29,0.14
+S047,S047-R1,SZX > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,5003,30.7,31.5,0.278,0.37,0.67
+S047,S047-R2,SZX > RTM,air,1,Air,87918,2.1,2.1,0.037,0.36,0.09
+S047,S047-R3,SZX > PAN > RTM,sea>sea,2,Panama,5664,38.3,38.8,0.189,0.38,0.2
+S047,S047-R4,SZX > SIN > CMB > CPT > RTM,sea>sea>sea>sea,4,Cape of Good Hope,7010,41.6,42.4,0.3,0.27,0.1
+S047,S047-R5,SZX > SIN > NSA > SUZ > RTM,sea>sea>sea>sea,4,Suez / Red Sea,6250,37.8,38.6,0.307,0.34,0.74
+S048,S048-R1,SIN > SUZ > RTM,sea>sea,2,Suez / Red Sea,3995,23.5,24.0,0.173,0.38,0.75
+S048,S048-R2,SIN > RTM,air,1,Air,102740,2.1,2.2,0.063,0.41,0.05
+S048,S048-R3,SIN > PAN > RTM,sea>sea,2,Panama,6822,41.4,41.8,0.149,0.29,0.14
+S048,S048-R4,SIN > CMB > CPT > RTM,sea>sea>sea,3,Cape of Good Hope,6158,36.7,37.3,0.227,0.2,0.12
+S048,S048-R5,SIN > SZX > PAN > RTM,sea>sea>sea,3,Panama,7317,45.6,46.2,0.243,0.32,0.18
+S049,S049-R1,SZX > LAX,sea,1,Transpacific / US land-bridge,689,15.2,15.6,0.14,0.7,0.06
+S049,S049-R2,SZX > LAX,air,1,Air,16849,1.7,1.7,0.068,0.46,0.04
+S049,S049-R3,SZX > SIN > PAN > NYC > LAX,sea>sea>sea>rail,4,Panama,2289,51.1,52.0,0.314,0.33,0.17
+S050,S050-R1,SHA > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,4971,32.7,33.3,0.241,0.4,0.83
+S050,S050-R2,SHA > RTM,air,1,Air,89868,2.0,2.0,0.043,0.45,0.14
+S050,S050-R3,SHA > PAN > RTM,sea>sea,2,Panama,5579,38.2,38.6,0.167,0.39,0.12
+S050,S050-R4,SHA > PAN > NYC > CPT > RTM,sea>sea>sea>sea,4,Cape of Good Hope,9768,66.5,67.8,0.352,0.29,0.12
+S050,S050-R5,SHA > SIN > CMB > SUZ > RTM,sea>sea>sea>sea,4,Suez / Red Sea,5807,35.5,36.3,0.309,0.36,0.65
+S051,S051-R1,SZX > LAX,sea,1,Transpacific / US land-bridge,4349,14.8,15.2,0.165,0.75,0.04
+S051,S051-R2,SZX > LAX,air,1,Air,114067,1.6,1.6,0.05,0.35,0.09
+S051,S051-R3,SZX > PAN > RTM > NYC > LAX,sea>sea>sea>rail,4,Panama,14548,58.6,59.6,0.326,0.37,0.16
+S051,S051-R4,SZX > SIN > LAX,sea>sea,2,Transpacific / US land-bridge,6705,24.4,24.9,0.195,0.57,0.19
+S052,S052-R1,SZX > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,2928,35.7,36.5,0.327,0.37,0.69
+S052,S052-R2,SZX > HAM,air,1,Air,45371,1.9,1.9,0.039,0.37,0.07
+S052,S052-R3,SZX > PAN > RTM > HAM,sea>sea>road,3,Panama,3852,42.8,43.4,0.244,0.32,0.16
+S052,S052-R4,SZX > HAM,rail,1,Eurasia rail,6496,19.4,19.9,0.115,0.63,0.54
+S053,S053-R1,NSA > SIN > LAX,sea>sea,2,Transpacific / US land-bridge,3227,28.4,29.0,0.25,0.63,0.09
+S053,S053-R2,NSA > LAX,air,1,Air,53488,2.8,2.8,0.067,0.38,0.08
+S053,S053-R3,NSA > CMB > SIN > LAX,sea>sea>sea,3,Transpacific / US land-bridge,3905,31.4,32.0,0.25,0.53,0.09
+S054,S054-R1,SZX > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,1331,30.7,31.6,0.306,0.4,0.7
+S054,S054-R2,SZX > RTM,air,1,Air,23873,2.0,2.0,0.041,0.39,0.14
+S054,S054-R3,SZX > PAN > RTM,sea>sea,2,Panama,1491,39.6,40.0,0.151,0.28,0.17
+S054,S054-R4,SZX > SIN > CMB > CPT > RTM,sea>sea>sea>sea,4,Cape of Good Hope,1922,42.3,43.0,0.268,0.25,0.1
+S054,S054-R5,SZX > SIN > CMB > SUZ > RTM,sea>sea>sea>sea,4,Suez / Red Sea,1518,33.3,34.1,0.314,0.37,0.75
+S055,S055-R1,SIN > LAX,sea,1,Transpacific / US land-bridge,1163,18.6,18.9,0.165,0.66,0.07
+S055,S055-R2,SIN > LAX,air,1,Air,28754,2.6,2.6,0.043,0.37,0.06
+S055,S055-R3,SIN > CMB > CPT > NYC > LAX,sea>sea>sea>rail,4,Cape of Good Hope,3125,45.7,46.6,0.319,0.28,0.09
+S055,S055-R4,SIN > SHA > LAX,sea>sea,2,Transpacific / US land-bridge,1480,22.8,23.5,0.266,0.63,0.15
+S056,S056-R1,NSA > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,4098,26.6,27.6,0.336,0.37,0.76
+S056,S056-R2,NSA > HAM,air,1,Air,84133,2.3,2.4,0.027,0.41,0.18
+S056,S056-R3,NSA > CMB > CPT > RTM > HAM,sea>sea>sea>road,4,Cape of Good Hope,6876,40.0,40.8,0.271,0.23,0.09
+S056,S056-R4,NSA > SIN > SZX > HAM,sea>sea>rail,3,Eurasia rail,15748,35.7,36.4,0.225,0.46,0.51
+S056,S056-R5,NSA > SUZ > RTM > HAM,sea>sea>road,3,Suez / Red Sea,4511,25.3,26.3,0.311,0.4,0.76
+S057,S057-R1,SZX > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,2912,30.4,31.2,0.28,0.37,0.69
+S057,S057-R2,SZX > RTM,air,1,Air,54245,2.0,2.0,0.04,0.35,0.05
+S057,S057-R3,SZX > PAN > RTM,sea>sea,2,Panama,3295,37.9,38.4,0.194,0.35,0.16
+S057,S057-R4,SZX > HAM > RTM,rail>road,2,Eurasia rail,8355,22.9,23.3,0.18,0.51,0.5
+S057,S057-R5,SZX > SIN > CMB > CPT > RTM,sea>sea>sea>sea,4,Cape of Good Hope,4156,42.2,43.0,0.3,0.24,0.16
+S058,S058-R1,SHA > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,612,37.5,38.3,0.314,0.38,0.77
+S058,S058-R2,SHA > HAM,air,1,Air,9083,2.0,2.1,0.042,0.4,0.11
+S058,S058-R3,SHA > PAN > RTM > HAM,sea>sea>road,3,Panama,687,40.3,40.7,0.201,0.38,0.18
+S058,S058-R4,SHA > HAM,rail,1,Eurasia rail,1337,18.3,18.8,0.116,0.57,0.52
+S059,S059-R1,SHA > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,5975,32.4,33.1,0.274,0.46,0.79
+S059,S059-R2,SHA > RTM,air,1,Air,94747,2.0,2.0,0.04,0.51,0.01
+S059,S059-R3,SHA > PAN > RTM,sea>sea,2,Panama,6798,35.4,35.8,0.16,0.34,0.13
+S059,S059-R4,SHA > PAN > NYC > HAM > RTM,sea>sea>sea>road,4,Panama,9577,45.8,46.6,0.303,0.42,0.12
+S060,S060-R1,SIN > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,5431,36.0,37.0,0.338,0.33,0.77
+S060,S060-R2,SIN > NYC,air,1,Air,99810,2.8,2.9,0.06,0.22,0.06
+S060,S060-R3,SIN > CMB > CPT > NYC,sea>sea>sea,3,Cape of Good Hope,5985,36.1,36.8,0.212,0.27,0.11
+S061,S061-R1,NSA > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,2151,26.2,26.9,0.236,0.39,0.72
+S061,S061-R2,NSA > HAM,air,1,Air,42363,2.4,2.4,0.032,0.35,0.07
+S061,S061-R3,NSA > CMB > CPT > RTM > HAM,sea>sea>sea>road,4,Cape of Good Hope,3560,39.9,40.5,0.258,0.21,0.13
+S061,S061-R4,NSA > SIN > SZX > HAM,sea>sea>rail,3,Eurasia rail,8819,35.8,36.7,0.225,0.49,0.61
+S061,S061-R5,NSA > CMB > CPT > NYC > HAM,sea>sea>sea>sea,4,Cape of Good Hope,4156,49.7,50.5,0.305,0.23,0.06
+S062,S062-R1,NSA > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,3664,33.5,34.4,0.332,0.34,0.63
+S062,S062-R2,NSA > NYC,air,1,Air,65955,2.7,2.7,0.065,0.28,0.09
+S062,S062-R3,NSA > CMB > CPT > NYC,sea>sea>sea,3,Cape of Good Hope,4008,36.4,36.9,0.207,0.24,0.14
+S063,S063-R1,SHA > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,4592,38.4,39.2,0.309,0.37,0.7
+S063,S063-R2,SHA > HAM,air,1,Air,67036,2.0,2.0,0.039,0.55,0.11
+S063,S063-R3,SHA > PAN > RTM > HAM,sea>sea>road,3,Panama,5134,40.4,40.8,0.212,0.25,0.14
+S063,S063-R4,SHA > HAM,rail,1,Eurasia rail,9262,17.2,17.5,0.089,0.6,0.52
+S063,S063-R5,SHA > PAN > NYC > HAM,sea>sea>sea,3,Panama,5317,43.1,43.8,0.266,0.3,0.08
+S064,S064-R1,NSA > SUZ > RTM,sea>sea,2,Suez / Red Sea,2252,21.9,22.4,0.23,0.38,0.75
+S064,S064-R2,NSA > RTM,air,1,Air,63362,2.2,2.3,0.051,0.39,0.12
+S064,S064-R3,NSA > CMB > CPT > RTM,sea>sea>sea,3,Cape of Good Hope,4089,36.7,37.5,0.265,0.28,0.17
+S065,S065-R1,SHA > PAN > NYC,sea>sea,2,Panama,4785,28.8,29.1,0.166,0.41,0.09
+S065,S065-R2,SHA > NYC,air,1,Air,73100,1.9,2.0,0.042,0.38,0.05
+S065,S065-R3,SHA > SIN > CMB > CPT > NYC,sea>sea>sea>sea,4,Cape of Good Hope,6846,46.0,46.8,0.272,0.3,0.14
+S066,S066-R1,NSA > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,597,26.0,26.7,0.263,0.33,0.73
+S066,S066-R2,NSA > HAM,air,1,Air,12648,2.2,2.3,0.061,0.42,0.11
+S066,S066-R3,NSA > CMB > CPT > RTM > HAM,sea>sea>sea>road,4,Cape of Good Hope,1007,41.6,42.3,0.275,0.24,0.15
+S066,S066-R4,NSA > SIN > SZX > HAM,sea>sea>rail,3,Eurasia rail,2338,35.4,36.1,0.233,0.43,0.58
+S067,S067-R1,SZX > LAX,sea,1,Transpacific / US land-bridge,3661,14.7,15.2,0.127,0.78,0.02
+S067,S067-R2,SZX > LAX,air,1,Air,91906,1.7,1.7,0.056,0.43,0.07
+S067,S067-R3,SZX > SIN > PAN > NYC > LAX,sea>sea>sea>rail,4,Panama,12837,48.9,50.0,0.402,0.35,0.13
+S067,S067-R4,SZX > SIN > LAX,sea>sea,2,Transpacific / US land-bridge,5689,24.6,25.3,0.247,0.48,0.13
+S067,S067-R5,SZX > SIN > SHA > LAX,sea>sea>sea,3,Transpacific / US land-bridge,7319,28.5,29.3,0.297,0.51,0.13
+S068,S068-R1,SZX > PAN > NYC,sea>sea,2,Panama,2333,31.2,31.5,0.149,0.39,0.19
+S068,S068-R2,SZX > NYC,air,1,Air,39036,2.1,2.2,0.054,0.45,0.13
+S068,S068-R3,SZX > LAX > NYC,sea>rail,2,Transpacific / US land-bridge,3129,22.9,23.6,0.184,0.57,0.05
+S069,S069-R1,SZX > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,857,31.3,31.9,0.282,0.37,0.72
+S069,S069-R2,SZX > RTM,air,1,Air,16844,2.0,2.1,0.058,0.36,0.11
+S069,S069-R3,SZX > PAN > RTM,sea>sea,2,Panama,989,38.8,39.2,0.161,0.31,0.11
+S069,S069-R4,SZX > PAN > NYC > CPT > RTM,sea>sea>sea>sea,4,Cape of Good Hope,1840,65.4,66.4,0.322,0.3,0.12
+S070,S070-R1,NSA > SUZ > RTM,sea>sea,2,Suez / Red Sea,1661,18.9,19.4,0.186,0.28,0.78
+S070,S070-R2,NSA > RTM,air,1,Air,39763,2.0,2.1,0.067,0.36,0.12
+S070,S070-R3,NSA > CMB > CPT > RTM,sea>sea>sea,3,Cape of Good Hope,2871,36.5,37.2,0.214,0.25,0.14
+S071,S071-R1,SIN > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,4864,30.2,30.8,0.247,0.28,0.78
+S071,S071-R2,SIN > HAM,air,1,Air,100695,2.3,2.4,0.071,0.3,0.09
+S071,S071-R3,SIN > CMB > CPT > RTM > HAM,sea>sea>sea>road,4,Cape of Good Hope,7803,40.3,40.8,0.234,0.28,0.1
+S071,S071-R4,SIN > SZX > HAM,sea>rail,2,Eurasia rail,16210,26.4,27.0,0.17,0.4,0.57
+S071,S071-R5,SIN > CMB > CPT > NYC > HAM,sea>sea>sea>sea,4,Cape of Good Hope,8602,49.2,50.0,0.297,0.26,0.1
+S072,S072-R1,SHA > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,1316,32.2,32.9,0.265,0.44,0.62
+S072,S072-R2,SHA > RTM,air,1,Air,24435,2.2,2.2,0.067,0.49,0.08
+S072,S072-R3,SHA > PAN > RTM,sea>sea,2,Panama,1529,38.4,38.8,0.12,0.28,0.12
+S072,S072-R4,SHA > SIN > NSA > SUZ > RTM,sea>sea>sea>sea,4,Suez / Red Sea,1654,38.3,39.1,0.318,0.38,0.75
+S073,S073-R1,SHA > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,3934,32.3,33.2,0.283,0.41,0.77
+S073,S073-R2,SHA > RTM,air,1,Air,65017,2.1,2.1,0.038,0.4,0.09
+S073,S073-R3,SHA > PAN > RTM,sea>sea,2,Panama,4279,39.9,40.3,0.191,0.31,0.15
+S073,S073-R4,SHA > HAM > RTM,rail>road,2,Eurasia rail,9667,22.1,22.5,0.17,0.53,0.51
+S073,S073-R5,SHA > PAN > NYC > CPT > RTM,sea>sea>sea>sea,4,Cape of Good Hope,7660,67.3,68.3,0.314,0.27,0.15
+S074,S074-R1,SIN > LAX,sea,1,Transpacific / US land-bridge,3337,18.4,18.9,0.144,0.61,0.07
+S074,S074-R2,SIN > LAX,air,1,Air,80299,2.5,2.6,0.067,0.35,0.11
+S074,S074-R3,SIN > CMB > CPT > NYC > LAX,sea>sea>sea>rail,4,Cape of Good Hope,8785,45.2,46.1,0.32,0.32,0.09
+S074,S074-R4,SIN > SZX > LAX,sea>sea,2,Transpacific / US land-bridge,3995,21.6,22.3,0.204,0.58,0.15
+S074,S074-R5,SIN > SHA > LAX,sea>sea,2,Transpacific / US land-bridge,4059,22.7,23.3,0.238,0.51,0.14
+S075,S075-R1,SZX > LAX,sea,1,Transpacific / US land-bridge,2864,15.4,15.8,0.119,0.63,0.15
+S075,S075-R2,SZX > LAX,air,1,Air,73357,1.6,1.6,0.058,0.42,0.07
+S075,S075-R3,SZX > SIN > PAN > NYC > LAX,sea>sea>sea>rail,4,Panama,10048,49.3,50.1,0.341,0.35,0.16
+S075,S075-R4,SZX > SIN > LAX,sea>sea,2,Transpacific / US land-bridge,4530,24.8,25.4,0.227,0.6,0.1
+S076,S076-R1,NSA > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,4352,25.9,26.4,0.223,0.31,0.76
+S076,S076-R2,NSA > HAM,air,1,Air,93407,2.4,2.4,0.064,0.36,0.08
+S076,S076-R3,NSA > CMB > CPT > RTM > HAM,sea>sea>sea>road,4,Cape of Good Hope,7370,39.6,40.3,0.261,0.27,0.14
+S076,S076-R4,NSA > CMB > CPT > NYC > HAM,sea>sea>sea>sea,4,Cape of Good Hope,8696,48.9,49.8,0.269,0.24,0.14
+S076,S076-R5,NSA > SUZ > RTM > HAM,sea>sea>road,3,Suez / Red Sea,4687,24.5,25.0,0.251,0.35,0.76
+S077,S077-R1,SZX > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,4833,36.7,37.4,0.281,0.44,0.76
+S077,S077-R2,SZX > HAM,air,1,Air,81568,2.1,2.1,0.044,0.53,0.13
+S077,S077-R3,SZX > PAN > RTM > HAM,sea>sea>road,3,Panama,6241,44.2,44.7,0.222,0.29,0.17
+S078,S078-R1,NSA > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,1036,26.5,27.3,0.292,0.35,0.73
+S078,S078-R2,NSA > HAM,air,1,Air,23864,2.4,2.4,0.053,0.4,0.1
+S078,S078-R3,NSA > CMB > CPT > RTM > HAM,sea>sea>sea>road,4,Cape of Good Hope,1720,39.9,40.6,0.278,0.29,0.15
+S078,S078-R4,NSA > CMB > CPT > NYC > HAM,sea>sea>sea>sea,4,Cape of Good Hope,1985,51.5,52.3,0.242,0.3,0.15
+S078,S078-R5,NSA > CMB > SUZ > RTM > HAM,sea>sea>sea>road,4,Suez / Red Sea,1420,30.0,30.9,0.331,0.36,0.81
+S079,S079-R1,SHA > LAX,sea,1,Transpacific / US land-bridge,3198,14.1,14.5,0.145,0.76,0.11
+S079,S079-R2,SHA > LAX,air,1,Air,77582,1.6,1.6,0.053,0.44,0.12
+S079,S079-R3,SHA > PAN > NYC > LAX,sea>sea>rail,3,Panama,8425,35.7,36.4,0.299,0.33,0.16
+S080,S080-R1,SHA > LAX,sea,1,Transpacific / US land-bridge,1003,14.0,14.5,0.165,0.63,0.1
+S080,S080-R2,SHA > LAX,air,1,Air,27440,1.5,1.6,0.039,0.53,0.14
+S080,S080-R3,SHA > SIN > PAN > NYC > LAX,sea>sea>sea>rail,4,Panama,3657,53.1,54.0,0.334,0.35,0.16
+S080,S080-R4,SHA > SIN > LAX,sea>sea,2,Transpacific / US land-bridge,1687,27.2,27.7,0.166,0.59,0.16
+S081,S081-R1,SIN > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,4767,29.8,30.5,0.256,0.27,0.73
+S081,S081-R2,SIN > HAM,air,1,Air,103272,2.1,2.1,0.044,0.24,0.04
+S081,S081-R3,SIN > CMB > CPT > RTM > HAM,sea>sea>sea>road,4,Cape of Good Hope,7621,40.1,40.8,0.255,0.23,0.15
+S082,S082-R1,SZX > LAX,sea,1,Transpacific / US land-bridge,3085,14.1,14.5,0.123,0.72,0.07
+S082,S082-R2,SZX > LAX,air,1,Air,68853,1.6,1.7,0.06,0.54,0.12
+S082,S082-R3,SZX > SIN > LAX,sea>sea,2,Transpacific / US land-bridge,4644,25.4,26.0,0.208,0.47,0.09
+S082,S082-R4,SZX > SIN > SHA > LAX,sea>sea>sea,3,Transpacific / US land-bridge,5385,29.7,30.5,0.247,0.59,0.11
+S083,S083-R1,SZX > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,1553,29.5,30.2,0.261,0.36,0.75
+S083,S083-R2,SZX > RTM,air,1,Air,27692,2.0,2.1,0.071,0.49,0.08
+S083,S083-R3,SZX > PAN > RTM,sea>sea,2,Panama,1668,38.4,38.7,0.156,0.31,0.14
+S084,S084-R1,SZX > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,3084,35.8,36.6,0.291,0.38,0.82
+S084,S084-R2,SZX > HAM,air,1,Air,48134,1.9,1.9,0.04,0.45,0.07
+S084,S084-R3,SZX > HAM,rail,1,Eurasia rail,6661,19.7,20.3,0.141,0.5,0.54
+S084,S084-R4,SZX > SIN > PAN > NYC > HAM,sea>sea>sea>sea,4,Panama,4683,55.0,55.9,0.314,0.32,0.13
+S085,S085-R1,SHA > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,5023,31.9,32.6,0.281,0.45,0.78
+S085,S085-R2,SHA > RTM,air,1,Air,95302,2.1,2.1,0.039,0.51,0.11
+S085,S085-R3,SHA > PAN > RTM,sea>sea,2,Panama,5613,38.4,38.9,0.188,0.37,0.13
+S085,S085-R4,SHA > HAM > RTM,rail>road,2,Eurasia rail,14166,22.2,22.8,0.163,0.56,0.55
+S085,S085-R5,SHA > SIN > CMB > CPT > RTM,sea>sea>sea>sea,4,Cape of Good Hope,6966,46.0,46.8,0.303,0.3,0.15
+S086,S086-R1,NSA > SUZ > RTM,sea>sea,2,Suez / Red Sea,431,20.9,21.4,0.177,0.34,0.73
+S086,S086-R2,NSA > RTM,air,1,Air,11144,2.3,2.4,0.056,0.39,0.19
+S086,S086-R3,NSA > CMB > CPT > RTM,sea>sea>sea,3,Cape of Good Hope,728,35.8,36.5,0.209,0.22,0.13
+S086,S086-R4,NSA > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,646,33.5,34.1,0.243,0.35,0.72
+S087,S087-R1,NSA > SUZ > RTM,sea>sea,2,Suez / Red Sea,3094,20.9,21.4,0.187,0.37,0.74
+S087,S087-R2,NSA > RTM,air,1,Air,81574,2.2,2.3,0.046,0.49,0.1
+S087,S087-R3,NSA > CMB > CPT > RTM,sea>sea>sea,3,Cape of Good Hope,5405,36.1,36.7,0.229,0.28,0.14
+S088,S088-R1,NSA > SUZ > RTM,sea>sea,2,Suez / Red Sea,2538,21.2,21.9,0.269,0.42,0.69
+S088,S088-R2,NSA > RTM,air,1,Air,62194,2.1,2.2,0.061,0.33,0.11
+S088,S088-R3,NSA > CMB > CPT > RTM,sea>sea>sea,3,Cape of Good Hope,4526,36.2,36.8,0.209,0.25,0.2
+S088,S088-R4,NSA > CMB > CPT > NYC > RTM,sea>sea>sea>sea,4,Cape of Good Hope,5893,49.7,50.7,0.302,0.22,0.15
+S088,S088-R5,NSA > SIN > CMB > SUZ > RTM,sea>sea>sea>sea,4,Suez / Red Sea,4626,36.9,37.7,0.32,0.34,0.78
+S089,S089-R1,SHA > LAX,sea,1,Transpacific / US land-bridge,3500,14.5,15.2,0.177,0.64,0.11
+S089,S089-R2,SHA > LAX,air,1,Air,81991,1.5,1.6,0.039,0.5,0.12
+S089,S089-R3,SHA > SIN > PAN > NYC > LAX,sea>sea>sea>rail,4,Panama,11724,49.5,50.6,0.376,0.4,0.11
+S089,S089-R4,SHA > SIN > LAX,sea>sea,2,Transpacific / US land-bridge,5350,26.9,27.5,0.202,0.54,0.14
+S090,S090-R1,SHA > LAX,sea,1,Transpacific / US land-bridge,3037,14.3,14.7,0.141,0.78,0.15
+S090,S090-R2,SHA > LAX,air,1,Air,75567,1.6,1.6,0.04,0.52,0.08
+S090,S090-R3,SHA > SIN > PAN > NYC > LAX,sea>sea>sea>rail,4,Panama,11212,51.3,52.4,0.352,0.42,0.14
+S090,S090-R4,SHA > SIN > LAX,sea>sea,2,Transpacific / US land-bridge,5363,27.8,28.3,0.186,0.58,0.12
+S091,S091-R1,SHA > LAX,sea,1,Transpacific / US land-bridge,1148,13.3,13.6,0.114,0.69,0.07
+S091,S091-R2,SHA > LAX,air,1,Air,27687,1.5,1.5,0.044,0.42,0.08
+S091,S091-R3,SHA > SIN > PAN > NYC > LAX,sea>sea>sea>rail,4,Panama,4081,48.4,49.4,0.358,0.38,0.11
+S092,S092-R1,NSA > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,2011,33.3,34.2,0.313,0.34,0.75
+S092,S092-R2,NSA > NYC,air,1,Air,36324,2.6,2.7,0.05,0.42,0.06
+S092,S092-R3,NSA > CMB > CPT > NYC,sea>sea>sea,3,Cape of Good Hope,2204,37.0,37.8,0.285,0.27,0.1
+S093,S093-R1,SZX > PAN > NYC,sea>sea,2,Panama,4643,30.1,30.6,0.204,0.43,0.17
+S093,S093-R2,SZX > NYC,air,1,Air,75249,2.2,2.2,0.052,0.48,0.12
+S093,S093-R3,SZX > HAM > NYC,rail>sea,2,Eurasia rail,13193,31.3,31.8,0.16,0.4,0.51
+S093,S093-R4,SZX > SIN > CMB > CPT > NYC,sea>sea>sea>sea,4,Cape of Good Hope,6436,45.7,46.7,0.312,0.32,0.11
+S093,S093-R5,SZX > PAN > RTM > HAM > NYC,sea>sea>road>sea,4,Panama,7681,53.2,53.9,0.276,0.4,0.17
+S094,S094-R1,SIN > SUZ > RTM,sea>sea,2,Suez / Red Sea,2229,22.8,23.6,0.277,0.3,0.75
+S094,S094-R2,SIN > RTM,air,1,Air,52471,2.0,2.0,0.041,0.35,0.06
+S094,S094-R3,SIN > PAN > RTM,sea>sea,2,Panama,3845,40.1,40.7,0.153,0.31,0.22
+S094,S094-R4,SIN > NSA > CMB > CPT > RTM,sea>sea>sea>sea,4,Cape of Good Hope,4432,46.0,46.7,0.271,0.22,0.1
+S094,S094-R5,SIN > CMB > SUZ > PIR > RTM,sea>sea>sea>sea,4,Suez / Red Sea,2989,29.7,30.5,0.285,0.31,0.78
+S095,S095-R1,SIN > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,6028,35.9,37.1,0.368,0.35,0.75
+S095,S095-R2,SIN > NYC,air,1,Air,97766,2.7,2.8,0.079,0.32,0.06
+S095,S095-R3,SIN > PAN > NYC,sea>sea,2,Panama,6069,34.9,35.4,0.158,0.36,0.13
+S096,S096-R1,SIN > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,4424,35.7,36.6,0.258,0.39,0.77
+S096,S096-R2,SIN > NYC,air,1,Air,83231,2.8,2.8,0.048,0.29,0.04
+S096,S096-R3,SIN > PAN > NYC,sea>sea,2,Panama,4582,34.6,35.0,0.16,0.34,0.13
+S096,S096-R4,SIN > CMB > CPT > NYC,sea>sea>sea,3,Cape of Good Hope,4799,36.9,37.5,0.203,0.24,0.12
+S096,S096-R5,SIN > LAX > NYC,sea>rail,2,Transpacific / US land-bridge,6094,28.2,28.9,0.29,0.64,0.04
+S097,S097-R1,SIN > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,4100,35.7,36.7,0.295,0.44,0.81
+S097,S097-R2,SIN > NYC,air,1,Air,70744,2.9,2.9,0.045,0.34,0.08
+S097,S097-R3,SIN > PAN > NYC,sea>sea,2,Panama,4338,32.2,32.6,0.172,0.22,0.22
+S097,S097-R4,SIN > CMB > CPT > RTM > NYC,sea>sea>sea>sea,4,Cape of Good Hope,5875,46.3,47.4,0.342,0.25,0.13
+S097,S097-R5,SIN > SHA > LAX > NYC,sea>sea>rail,3,Transpacific / US land-bridge,6410,33.0,34.0,0.308,0.66,0.09
+S098,S098-R1,NSA > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,3636,26.3,27.0,0.263,0.31,0.79
+S098,S098-R2,NSA > HAM,air,1,Air,77590,2.2,2.2,0.054,0.3,0.18
+S098,S098-R3,NSA > CMB > CPT > RTM > HAM,sea>sea>sea>road,4,Cape of Good Hope,6102,39.7,40.4,0.259,0.27,0.14
+S099,S099-R1,NSA > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,3679,33.2,34.4,0.333,0.32,0.72
+S099,S099-R2,NSA > NYC,air,1,Air,64538,2.9,3.0,0.062,0.36,0.12
+S099,S099-R3,NSA > CMB > CPT > NYC,sea>sea>sea,3,Cape of Good Hope,4067,36.9,37.5,0.223,0.27,0.08
+S099,S099-R4,NSA > CMB > CPT > RTM > NYC,sea>sea>sea>sea,4,Cape of Good Hope,5276,48.1,49.2,0.342,0.22,0.08
+S100,S100-R1,SIN > SUZ > RTM,sea>sea,2,Suez / Red Sea,3912,23.1,23.7,0.222,0.41,0.73
+S100,S100-R2,SIN > RTM,air,1,Air,90678,1.9,1.9,0.042,0.39,0.15
+S100,S100-R3,SIN > CMB > CPT > RTM,sea>sea>sea,3,Cape of Good Hope,6266,37.3,37.8,0.179,0.27,0.14
+S101,S101-R1,NSA > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,6057,34.3,35.2,0.278,0.35,0.79
+S101,S101-R2,NSA > NYC,air,1,Air,104974,2.9,3.0,0.056,0.28,0.14
+S101,S101-R3,NSA > CMB > CPT > NYC,sea>sea>sea,3,Cape of Good Hope,6628,37.4,38.0,0.213,0.27,0.07
+S101,S101-R4,NSA > SUZ > CMB > CPT > NYC,sea>sea>sea>sea,4,Suez / Red Sea,8956,51.7,53.1,0.366,0.28,0.79
+S102,S102-R1,SHA > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,3036,38.0,38.8,0.356,0.31,0.82
+S102,S102-R2,SHA > HAM,air,1,Air,50198,2.0,2.1,0.046,0.52,0.12
+S102,S102-R3,SHA > PAN > RTM > HAM,sea>sea>road,3,Panama,3494,41.4,41.9,0.209,0.34,0.12
+S103,S103-R1,SZX > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,2514,29.7,30.7,0.313,0.34,0.8
+S103,S103-R2,SZX > RTM,air,1,Air,47149,2.1,2.2,0.042,0.39,0.15
+S103,S103-R3,SZX > PAN > RTM,sea>sea,2,Panama,3013,38.3,38.7,0.183,0.35,0.15
+S104,S104-R1,SHA > LAX,sea,1,Transpacific / US land-bridge,3096,13.4,13.7,0.108,0.51,0.05
+S104,S104-R2,SHA > LAX,air,1,Air,80983,1.5,1.5,0.042,0.48,0.1
+S104,S104-R3,SHA > PAN > NYC > LAX,sea>sea>rail,3,Panama,8995,38.5,39.2,0.327,0.36,0.12
+S105,S105-R1,SHA > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,5721,40.2,40.9,0.31,0.38,0.75
+S105,S105-R2,SHA > HAM,air,1,Air,93282,2.0,2.0,0.04,0.53,0.12
+S105,S105-R3,SHA > PAN > RTM > HAM,sea>sea>road,3,Panama,6748,41.0,41.6,0.23,0.37,0.16
+S105,S105-R4,SHA > HAM,rail,1,Eurasia rail,13636,17.3,17.6,0.106,0.56,0.51
+S106,S106-R1,NSA > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,5459,26.0,26.7,0.261,0.28,0.79
+S106,S106-R2,NSA > HAM,air,1,Air,125717,2.3,2.4,0.063,0.36,0.14
+S106,S106-R3,NSA > SIN > PAN > RTM > HAM,sea>sea>sea>road,4,Panama,13025,52.5,53.1,0.261,0.33,0.09
+S106,S106-R4,NSA > SIN > SHA > HAM,sea>sea>rail,3,Eurasia rail,22885,36.9,37.6,0.222,0.45,0.63
+S107,S107-R1,SHA > PAN > NYC,sea>sea,2,Panama,3159,29.3,29.8,0.218,0.33,0.08
+S107,S107-R2,SHA > NYC,air,1,Air,57702,2.0,2.0,0.047,0.34,0.08
+S107,S107-R3,SHA > PAN > RTM > NYC,sea>sea>sea,3,Panama,4841,48.9,49.5,0.228,0.33,0.07
+S108,S108-R1,SZX > LAX,sea,1,Transpacific / US land-bridge,4383,14.9,15.4,0.178,0.66,0.1
+S108,S108-R2,SZX > LAX,air,1,Air,103149,1.6,1.7,0.045,0.42,0.18
+S108,S108-R3,SZX > SIN > PAN > NYC > LAX,sea>sea>sea>rail,4,Panama,13617,50.7,51.7,0.35,0.28,0.14
+S108,S108-R4,SZX > SIN > LAX,sea>sea,2,Transpacific / US land-bridge,6519,24.1,24.6,0.21,0.52,0.09
+S108,S108-R5,SZX > SIN > SHA > LAX,sea>sea>sea,3,Transpacific / US land-bridge,7563,30.0,30.7,0.264,0.54,0.11
+S109,S109-R1,NSA > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,745,31.9,32.7,0.273,0.35,0.76
+S109,S109-R2,NSA > NYC,air,1,Air,13101,3.0,3.0,0.045,0.41,0.01
+S109,S109-R3,NSA > CMB > CPT > NYC,sea>sea>sea,3,Cape of Good Hope,832,36.7,37.3,0.213,0.32,0.2
+S110,S110-R1,SHA > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,2084,32.0,33.0,0.322,0.46,0.76
+S110,S110-R2,SHA > RTM,air,1,Air,33249,2.0,2.0,0.039,0.45,0.17
+S110,S110-R3,SHA > PAN > RTM,sea>sea,2,Panama,2393,37.8,38.3,0.195,0.4,0.17
+S110,S110-R4,SHA > HAM > RTM,rail>road,2,Eurasia rail,5682,22.5,22.9,0.142,0.59,0.51
+S110,S110-R5,SHA > SIN > CMB > CPT > RTM,sea>sea>sea>sea,4,Cape of Good Hope,2977,45.0,45.9,0.323,0.34,0.12
+S111,S111-R1,SZX > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,1170,34.9,35.8,0.322,0.31,0.77
+S111,S111-R2,SZX > HAM,air,1,Air,22585,2.0,2.1,0.041,0.39,0.08
+S111,S111-R3,SZX > PAN > RTM > HAM,sea>sea>road,3,Panama,1573,40.8,41.1,0.199,0.39,0.14
+S112,S112-R1,SZX > LAX,sea,1,Transpacific / US land-bridge,2562,15.5,15.9,0.119,0.63,0.13
+S112,S112-R2,SZX > LAX,air,1,Air,71459,1.6,1.7,0.043,0.44,0.13
+S112,S112-R3,SZX > SIN > PAN > NYC > LAX,sea>sea>sea>rail,4,Panama,9988,50.1,50.8,0.298,0.3,0.1
+S113,S113-R1,SIN > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,2374,36.3,37.3,0.311,0.33,0.72
+S113,S113-R2,SIN > NYC,air,1,Air,42356,2.8,2.8,0.03,0.33,0.09
+S113,S113-R3,SIN > CMB > CPT > NYC,sea>sea>sea,3,Cape of Good Hope,2631,37.5,38.1,0.224,0.17,0.16
+S114,S114-R1,SIN > LAX,sea,1,Transpacific / US land-bridge,1408,18.0,18.4,0.11,0.61,0.07
+S114,S114-R2,SIN > LAX,air,1,Air,38318,2.3,2.4,0.058,0.28,0.06
+S114,S114-R3,SIN > CMB > CPT > NYC > LAX,sea>sea>sea>rail,4,Cape of Good Hope,4053,44.2,45.4,0.373,0.22,0.13
+S115,S115-R1,NSA > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,5464,34.3,35.2,0.363,0.37,0.82
+S115,S115-R2,NSA > NYC,air,1,Air,105286,2.8,2.8,0.038,0.28,0.09
+S115,S115-R3,NSA > CMB > CPT > NYC,sea>sea>sea,3,Cape of Good Hope,6241,36.8,37.4,0.196,0.24,0.1
+S115,S115-R4,NSA > SUZ > RTM > CPT > NYC,sea>sea>sea>sea,4,Suez / Red Sea,9040,56.5,57.6,0.405,0.28,0.82
+S115,S115-R5,NSA > SIN > SZX > PAN > NYC,sea>sea>sea>sea,4,Panama,9142,46.1,46.9,0.318,0.32,0.21
+S116,S116-R1,SZX > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,3073,30.5,31.1,0.28,0.33,0.82
+S116,S116-R2,SZX > RTM,air,1,Air,56158,2.0,2.1,0.054,0.3,0.06
+S116,S116-R3,SZX > PAN > RTM,sea>sea,2,Panama,3284,39.9,40.2,0.146,0.44,0.21
+S117,S117-R1,SHA > LAX,sea,1,Transpacific / US land-bridge,3239,14.3,14.7,0.14,0.71,0.08
+S117,S117-R2,SHA > LAX,air,1,Air,87149,1.4,1.5,0.044,0.43,0.13
+S117,S117-R3,SHA > SIN > PAN > NYC > LAX,sea>sea>sea>rail,4,Panama,10843,51.8,53.0,0.374,0.33,0.2
+S118,S118-R1,NSA > SUZ > RTM,sea>sea,2,Suez / Red Sea,1136,20.3,20.9,0.21,0.27,0.74
+S118,S118-R2,NSA > RTM,air,1,Air,30738,2.3,2.4,0.054,0.39,0.15
+S118,S118-R3,NSA > CMB > CPT > RTM,sea>sea>sea,3,Cape of Good Hope,1820,36.0,36.6,0.213,0.24,0.21
+S119,S119-R1,SZX > PAN > NYC,sea>sea,2,Panama,5366,29.8,30.3,0.175,0.39,0.09
+S119,S119-R2,SZX > NYC,air,1,Air,88024,2.3,2.4,0.052,0.4,0.09
+S119,S119-R3,SZX > PAN > RTM > CPT > NYC,sea>sea>sea>sea,4,Cape of Good Hope,10887,72.3,73.2,0.299,0.27,0.11
+S119,S119-R4,SZX > SIN > SHA > PAN > NYC,sea>sea>sea>sea,4,Panama,7935,47.7,48.5,0.319,0.44,0.19
+S120,S120-R1,NSA > SIN > LAX,sea>sea,2,Transpacific / US land-bridge,2451,27.4,28.1,0.227,0.51,0.13
+S120,S120-R2,NSA > LAX,air,1,Air,42567,2.9,2.9,0.045,0.27,0.07
+S120,S120-R3,NSA > CMB > CPT > NYC > LAX,sea>sea>sea>rail,4,Cape of Good Hope,4392,46.2,47.0,0.289,0.27,0.12
+S120,S120-R4,NSA > SUZ > SIN > LAX,sea>sea>sea,3,Suez / Red Sea,3421,44.1,45.8,0.444,0.42,0.75
+S121,S121-R1,SHA > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,4902,34.0,34.6,0.233,0.44,0.74
+S121,S121-R2,SHA > RTM,air,1,Air,83412,2.0,2.1,0.051,0.61,0.03
+S121,S121-R3,SHA > PAN > RTM,sea>sea,2,Panama,5568,38.7,39.3,0.195,0.37,0.1
+S121,S121-R4,SHA > HAM > RTM,rail>road,2,Eurasia rail,14907,21.8,22.3,0.155,0.49,0.55
+S122,S122-R1,SIN > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,1168,29.1,29.9,0.296,0.39,0.76
+S122,S122-R2,SIN > HAM,air,1,Air,25390,2.3,2.3,0.06,0.3,0.03
+S122,S122-R3,SIN > PAN > RTM > HAM,sea>sea>road,3,Panama,2083,45.8,46.5,0.263,0.31,0.14
+S122,S122-R4,SIN > SZX > HAM,sea>rail,2,Eurasia rail,3870,26.8,27.3,0.193,0.63,0.49
+S123,S123-R1,NSA > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,756,32.9,33.7,0.269,0.35,0.71
+S123,S123-R2,NSA > NYC,air,1,Air,14362,2.7,2.8,0.064,0.28,0.14
+S123,S123-R3,NSA > CMB > CPT > NYC,sea>sea>sea,3,Cape of Good Hope,874,37.9,38.6,0.246,0.2,0.09
+S123,S123-R4,NSA > SIN > PAN > NYC,sea>sea>sea,3,Panama,1111,42.8,43.4,0.234,0.33,0.23
+S124,S124-R1,NSA > SUZ > RTM,sea>sea,2,Suez / Red Sea,1760,20.3,20.9,0.244,0.38,0.76
+S124,S124-R2,NSA > RTM,air,1,Air,46725,2.3,2.4,0.051,0.45,0.09
+S124,S124-R3,NSA > CMB > CPT > RTM,sea>sea>sea,3,Cape of Good Hope,3050,36.7,37.2,0.207,0.34,0.12
+S124,S124-R4,NSA > SIN > PAN > RTM,sea>sea>sea,3,Panama,4137,50.3,50.8,0.177,0.34,0.12
+S125,S125-R1,SHA > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,6351,37.9,38.9,0.333,0.34,0.7
+S125,S125-R2,SHA > HAM,air,1,Air,100209,2.1,2.1,0.055,0.46,0.15
+S125,S125-R3,SHA > PAN > RTM > HAM,sea>sea>road,3,Panama,7759,41.3,41.9,0.253,0.32,0.12
+S125,S125-R4,SHA > HAM,rail,1,Eurasia rail,13400,18.8,19.2,0.123,0.64,0.6
+S125,S125-R5,SHA > PAN > NYC > RTM > HAM,sea>sea>sea>road,4,Panama,9099,46.9,47.6,0.295,0.36,0.12
+S126,S126-R1,SIN > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,5384,37.2,38.1,0.301,0.4,0.73
+S126,S126-R2,SIN > NYC,air,1,Air,89553,2.6,2.7,0.037,0.31,0.12
+S126,S126-R3,SIN > PAN > NYC,sea>sea,2,Panama,5412,31.8,32.2,0.163,0.32,0.23
+S126,S126-R4,SIN > CMB > CPT > NYC,sea>sea>sea,3,Cape of Good Hope,5539,37.9,38.6,0.222,0.31,0.15
+S127,S127-R1,SHA > PAN > NYC,sea>sea,2,Panama,1434,31.5,31.9,0.176,0.42,0.11
+S127,S127-R2,SHA > NYC,air,1,Air,24309,1.9,2.0,0.057,0.53,0.13
+S127,S127-R3,SHA > SIN > CMB > CPT > NYC,sea>sea>sea>sea,4,Cape of Good Hope,2083,46.4,47.3,0.311,0.27,0.1
+S127,S127-R4,SHA > LAX > NYC,sea>rail,2,Transpacific / US land-bridge,1947,23.1,23.7,0.262,0.71,0.11
+S127,S127-R5,SHA > SIN > LAX > NYC,sea>sea>rail,3,Transpacific / US land-bridge,2551,36.1,37.0,0.341,0.61,0.13
+S128,S128-R1,NSA > SIN > LAX,sea>sea,2,Transpacific / US land-bridge,2042,28.2,28.6,0.183,0.54,0.06
+S128,S128-R2,NSA > LAX,air,1,Air,39365,3.1,3.2,0.037,0.22,0.1
+S128,S128-R3,NSA > SIN > PAN > NYC > LAX,sea>sea>sea>rail,4,Panama,4214,53.0,53.7,0.318,0.31,0.12
+S128,S128-R4,NSA > CMB > SIN > LAX,sea>sea>sea,3,Transpacific / US land-bridge,2317,31.9,32.3,0.218,0.5,0.16
+S129,S129-R1,SIN > SUZ > RTM,sea>sea,2,Suez / Red Sea,1730,24.5,25.2,0.237,0.35,0.76
+S129,S129-R2,SIN > RTM,air,1,Air,42563,2.0,2.1,0.052,0.36,0.0
+S129,S129-R3,SIN > PAN > RTM,sea>sea,2,Panama,2716,41.8,42.3,0.162,0.28,0.18
+S129,S129-R4,SIN > CMB > CPT > RTM,sea>sea>sea,3,Cape of Good Hope,2728,35.5,36.3,0.262,0.21,0.1
+S129,S129-R5,SIN > SUZ > PIR > HAM > RTM,sea>sea>sea>road,4,Suez / Red Sea,2524,33.8,34.6,0.308,0.35,0.76
+S130,S130-R1,SIN > SUZ > RTM,sea>sea,2,Suez / Red Sea,2116,24.0,24.5,0.174,0.32,0.77
+S130,S130-R2,SIN > RTM,air,1,Air,53362,2.1,2.1,0.053,0.33,0.14
+S130,S130-R3,SIN > PAN > RTM,sea>sea,2,Panama,3581,41.6,42.1,0.158,0.31,0.17
+S130,S130-R4,SIN > CMB > CPT > RTM,sea>sea>sea,3,Cape of Good Hope,3513,37.7,38.3,0.263,0.28,0.14
+S131,S131-R1,SHA > PAN > NYC,sea>sea,2,Panama,2847,29.9,30.4,0.18,0.41,0.09
+S131,S131-R2,SHA > NYC,air,1,Air,45581,2.0,2.1,0.061,0.53,0.11
+S131,S131-R3,SHA > PAN > RTM > CPT > NYC,sea>sea>sea>sea,4,Cape of Good Hope,6065,74.5,75.5,0.328,0.28,0.09
+S131,S131-R4,SHA > SIN > LAX > NYC,sea>sea>rail,3,Transpacific / US land-bridge,5016,35.5,36.3,0.342,0.57,0.17
+S132,S132-R1,SIN > SUZ > RTM,sea>sea,2,Suez / Red Sea,1821,23.5,24.1,0.289,0.37,0.76
+S132,S132-R2,SIN > RTM,air,1,Air,42705,2.1,2.2,0.039,0.3,0.08
+S132,S132-R3,SIN > CMB > CPT > RTM,sea>sea>sea,3,Cape of Good Hope,2915,36.4,37.1,0.225,0.24,0.1
+S133,S133-R1,NSA > SUZ > RTM,sea>sea,2,Suez / Red Sea,3570,20.6,21.2,0.202,0.32,0.75
+S133,S133-R2,NSA > RTM,air,1,Air,89575,2.2,2.2,0.051,0.29,0.07
+S133,S133-R3,NSA > CMB > CPT > RTM,sea>sea>sea,3,Cape of Good Hope,6385,36.5,37.1,0.212,0.35,0.14
+S133,S133-R4,NSA > SIN > SZX > PAN > RTM,sea>sea>sea>sea,4,Panama,9767,54.7,55.4,0.274,0.26,0.15
+S134,S134-R1,SIN > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,4119,29.1,29.6,0.233,0.38,0.81
+S134,S134-R2,SIN > HAM,air,1,Air,80362,2.3,2.3,0.03,0.27,0.14
+S134,S134-R3,SIN > PAN > RTM > HAM,sea>sea>road,3,Panama,7570,45.8,46.1,0.181,0.28,0.16
+S134,S134-R4,SIN > SZX > HAM,sea>rail,2,Eurasia rail,14299,24.4,25.0,0.167,0.47,0.54
+S134,S134-R5,SIN > CMB > CPT > NYC > HAM,sea>sea>sea>sea,4,Cape of Good Hope,7771,50.3,51.3,0.295,0.28,0.15
+S135,S135-R1,SHA > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,5907,32.2,33.2,0.286,0.42,0.69
+S135,S135-R2,SHA > RTM,air,1,Air,97362,2.1,2.1,0.046,0.45,0.04
+S135,S135-R3,SHA > PAN > RTM,sea>sea,2,Panama,6482,37.8,38.3,0.175,0.31,0.16
+S135,S135-R4,SHA > HAM > RTM,rail>road,2,Eurasia rail,14974,21.2,21.8,0.16,0.49,0.48
+S135,S135-R5,SHA > SIN > PAN > NYC > RTM,sea>sea>sea>sea,4,Panama,10358,54.9,56.0,0.334,0.34,0.12
+S136,S136-R1,SHA > LAX,sea,1,Transpacific / US land-bridge,722,14.5,15.0,0.15,0.69,0.05
+S136,S136-R2,SHA > LAX,air,1,Air,20207,1.6,1.7,0.052,0.45,0.01
+S136,S136-R3,SHA > PAN > RTM > NYC > LAX,sea>sea>sea>rail,4,Panama,2561,60.7,61.8,0.333,0.37,0.21
+S136,S136-R4,SHA > SIN > LAX,sea>sea,2,Transpacific / US land-bridge,1232,27.6,28.2,0.222,0.62,0.14
+S137,S137-R1,SHA > PAN > NYC,sea>sea,2,Panama,1263,30.2,30.8,0.193,0.33,0.14
+S137,S137-R2,SHA > NYC,air,1,Air,20249,2.0,2.1,0.038,0.32,0.08
+S137,S137-R3,SHA > SIN > CMB > CPT > NYC,sea>sea>sea>sea,4,Cape of Good Hope,1722,48.0,48.8,0.3,0.37,0.14
+S137,S137-R4,SHA > LAX > NYC,sea>rail,2,Transpacific / US land-bridge,1568,23.5,24.3,0.28,0.63,0.14
+S138,S138-R1,SIN > SUZ > RTM,sea>sea,2,Suez / Red Sea,1932,24.2,24.6,0.169,0.35,0.75
+S138,S138-R2,SIN > RTM,air,1,Air,45791,2.1,2.2,0.062,0.26,0.04
+S138,S138-R3,SIN > PAN > RTM,sea>sea,2,Panama,3634,43.7,44.0,0.158,0.29,0.16
+S138,S138-R4,SIN > CMB > CPT > NYC > RTM,sea>sea>sea>sea,4,Cape of Good Hope,4368,50.5,51.4,0.311,0.31,0.11
+S139,S139-R1,SZX > LAX,sea,1,Transpacific / US land-bridge,3268,14.8,15.1,0.129,0.7,0.12
+S139,S139-R2,SZX > LAX,air,1,Air,78349,1.6,1.7,0.049,0.4,0.07
+S139,S139-R3,SZX > SIN > PAN > NYC > LAX,sea>sea>sea>rail,4,Panama,10177,48.0,48.9,0.322,0.35,0.15
+S140,S140-R1,NSA > SUZ > RTM,sea>sea,2,Suez / Red Sea,1520,20.2,20.7,0.241,0.41,0.71
+S140,S140-R2,NSA > RTM,air,1,Air,38295,2.3,2.4,0.051,0.41,0.11
+S140,S140-R3,NSA > CMB > CPT > RTM,sea>sea>sea,3,Cape of Good Hope,2969,35.9,36.8,0.251,0.27,0.08
+S140,S140-R4,NSA > SIN > PAN > RTM,sea>sea>sea,3,Panama,4015,52.7,53.1,0.187,0.23,0.14
+S141,S141-R1,SZX > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,5855,29.9,30.8,0.3,0.39,0.68
+S141,S141-R2,SZX > RTM,air,1,Air,108186,2.1,2.1,0.047,0.41,0.12
+S141,S141-R3,SZX > PAN > RTM,sea>sea,2,Panama,6882,36.5,36.9,0.171,0.25,0.16
+S141,S141-R4,SZX > HAM > RTM,rail>road,2,Eurasia rail,16029,23.6,24.0,0.127,0.63,0.52
+S141,S141-R5,SZX > SIN > PAN > NYC > RTM,sea>sea>sea>sea,4,Panama,10925,54.6,55.6,0.369,0.36,0.17
+S142,S142-R1,SZX > PAN > NYC,sea>sea,2,Panama,4423,29.4,30.0,0.226,0.31,0.12
+S142,S142-R2,SZX > NYC,air,1,Air,73617,2.2,2.3,0.047,0.35,0.03
+S142,S142-R3,SZX > HAM > NYC,rail>sea,2,Eurasia rail,12663,30.4,31.1,0.214,0.42,0.57
+S143,S143-R1,SHA > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,2807,37.5,38.5,0.332,0.39,0.73
+S143,S143-R2,SHA > HAM,air,1,Air,45587,1.8,1.9,0.039,0.39,0.04
+S143,S143-R3,SHA > PAN > RTM > HAM,sea>sea>road,3,Panama,3300,40.9,41.4,0.233,0.37,0.15
+S143,S143-R4,SHA > HAM,rail,1,Eurasia rail,6616,18.9,19.4,0.102,0.63,0.55
+S144,S144-R1,SZX > PAN > NYC,sea>sea,2,Panama,4772,29.5,30.0,0.189,0.43,0.11
+S144,S144-R2,SZX > NYC,air,1,Air,79923,2.3,2.3,0.044,0.42,0.14
+S144,S144-R3,SZX > SIN > CMB > CPT > NYC,sea>sea>sea>sea,4,Cape of Good Hope,6499,43.1,43.9,0.303,0.27,0.12
+S144,S144-R4,SZX > SIN > SHA > LAX > NYC,sea>sea>sea>rail,4,Transpacific / US land-bridge,8542,39.1,40.0,0.331,0.57,0.12
+S144,S144-R5,SZX > PAN > RTM > HAM > NYC,sea>sea>road>sea,4,Panama,7932,54.3,55.3,0.311,0.42,0.13
+S145,S145-R1,NSA > SUZ > RTM,sea>sea,2,Suez / Red Sea,1574,20.7,21.2,0.229,0.36,0.75
+S145,S145-R2,NSA > RTM,air,1,Air,39786,2.1,2.1,0.059,0.41,0.17
+S145,S145-R3,NSA > CMB > CPT > RTM,sea>sea>sea,3,Cape of Good Hope,2687,35.3,36.1,0.251,0.34,0.11
+S145,S145-R4,NSA > SIN > PAN > RTM,sea>sea>sea,3,Panama,3555,51.0,51.6,0.197,0.39,0.11
+S146,S146-R1,SZX > LAX,sea,1,Transpacific / US land-bridge,4875,15.1,15.4,0.11,0.66,0.06
+S146,S146-R2,SZX > LAX,air,1,Air,115614,1.7,1.8,0.068,0.42,0.08
+S146,S146-R3,SZX > PAN > NYC > LAX,sea>sea>rail,3,Panama,12237,39.8,40.4,0.295,0.43,0.13
+S146,S146-R4,SZX > SIN > SHA > LAX,sea>sea>sea,3,Transpacific / US land-bridge,8258,30.0,30.7,0.275,0.53,0.16
+S147,S147-R1,SZX > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,1512,35.3,36.2,0.336,0.3,0.75
+S147,S147-R2,SZX > HAM,air,1,Air,26150,2.0,2.1,0.047,0.27,0.11
+S147,S147-R3,SZX > PAN > RTM > HAM,sea>sea>road,3,Panama,1922,43.3,43.7,0.209,0.28,0.17
+S147,S147-R4,SZX > HAM,rail,1,Eurasia rail,3704,18.5,18.9,0.092,0.59,0.51
+S147,S147-R5,SZX > SIN > PAN > RTM > HAM,sea>sea>sea>road,4,Panama,2469,52.7,53.4,0.289,0.28,0.11
+S148,S148-R1,SIN > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,4923,29.6,30.2,0.253,0.35,0.77
+S148,S148-R2,SIN > HAM,air,1,Air,103326,2.2,2.2,0.044,0.28,0.13
+S148,S148-R3,SIN > PAN > RTM > HAM,sea>sea>road,3,Panama,8348,46.2,46.8,0.238,0.32,0.17
+S149,S149-R1,SIN > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,2546,29.7,30.4,0.255,0.4,0.78
+S149,S149-R2,SIN > HAM,air,1,Air,55692,2.2,2.2,0.056,0.12,0.08
+S149,S149-R3,SIN > CMB > CPT > RTM > HAM,sea>sea>sea>road,4,Cape of Good Hope,4108,40.0,40.7,0.261,0.2,0.14
+S150,S150-R1,NSA > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,1449,25.8,26.5,0.237,0.33,0.81
+S150,S150-R2,NSA > HAM,air,1,Air,32400,2.5,2.5,0.057,0.44,0.08
+S150,S150-R3,NSA > CMB > CPT > RTM > HAM,sea>sea>sea>road,4,Cape of Good Hope,2439,40.4,41.0,0.278,0.27,0.15
+S150,S150-R4,NSA > SIN > SZX > HAM,sea>sea>rail,3,Eurasia rail,5772,36.7,37.2,0.196,0.41,0.57
+S150,S150-R5,NSA > SUZ > PIR > RTM > HAM,sea>sea>sea>road,4,Suez / Red Sea,1736,28.9,29.7,0.28,0.33,0.81
+S151,S151-R1,SZX > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,3204,37.4,38.4,0.309,0.38,0.76
+S151,S151-R2,SZX > HAM,air,1,Air,57887,1.9,2.0,0.048,0.46,0.13
+S151,S151-R3,SZX > PAN > RTM > HAM,sea>sea>road,3,Panama,4277,42.2,42.6,0.206,0.29,0.19
+S152,S152-R1,NSA > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,3656,35.2,36.2,0.278,0.39,0.78
+S152,S152-R2,NSA > NYC,air,1,Air,64716,2.9,3.0,0.093,0.34,0.08
+S152,S152-R3,NSA > CMB > CPT > NYC,sea>sea>sea,3,Cape of Good Hope,4171,37.6,38.3,0.223,0.23,0.15
+S153,S153-R1,SHA > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,985,32.5,33.0,0.213,0.45,0.72
+S153,S153-R2,SHA > RTM,air,1,Air,17662,2.0,2.1,0.069,0.47,0.11
+S153,S153-R3,SHA > PAN > RTM,sea>sea,2,Panama,1096,38.9,39.4,0.183,0.44,0.2
+S154,S154-R1,SHA > PAN > NYC,sea>sea,2,Panama,894,30.2,30.7,0.196,0.42,0.25
+S154,S154-R2,SHA > NYC,air,1,Air,13969,2.1,2.1,0.042,0.35,0.17
+S154,S154-R3,SHA > SIN > PAN > RTM > NYC,sea>sea>sea>sea,4,Panama,1621,63.6,64.6,0.349,0.29,0.12
+S154,S154-R4,SHA > SIN > SUZ > RTM > NYC,sea>sea>sea>sea,4,Suez / Red Sea,1201,45.7,46.9,0.397,0.36,0.76
+S154,S154-R5,SHA > SIN > PAN > NYC,sea>sea>sea,3,Panama,1193,43.1,43.9,0.289,0.3,0.12
+S155,S155-R1,SZX > PAN > NYC,sea>sea,2,Panama,4680,31.9,32.5,0.226,0.4,0.15
+S155,S155-R2,SZX > NYC,air,1,Air,81540,2.3,2.3,0.058,0.44,0.05
+S155,S155-R3,SZX > SIN > PAN > NYC,sea>sea>sea,3,Panama,6225,37.9,38.5,0.228,0.27,0.11
+S155,S155-R4,SZX > HAM > NYC,rail>sea,2,Eurasia rail,12997,32.8,33.4,0.189,0.45,0.53
+S155,S155-R5,SZX > SIN > LAX > NYC,sea>sea>rail,3,Transpacific / US land-bridge,7708,33.2,33.9,0.266,0.59,0.09
+S156,S156-R1,SHA > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,5822,38.6,39.4,0.344,0.35,0.76
+S156,S156-R2,SHA > HAM,air,1,Air,94635,2.0,2.0,0.058,0.4,0.11
+S156,S156-R3,SHA > PAN > RTM > HAM,sea>sea>road,3,Panama,7019,41.7,42.2,0.206,0.32,0.1
+S156,S156-R4,SHA > HAM,rail,1,Eurasia rail,12705,19.6,19.9,0.091,0.6,0.51
+S156,S156-R5,SHA > PAN > NYC > HAM,sea>sea>sea,3,Panama,7179,43.3,44.1,0.259,0.34,0.09
+S157,S157-R1,SIN > SUZ > RTM,sea>sea,2,Suez / Red Sea,4568,23.6,24.2,0.247,0.41,0.78
+S157,S157-R2,SIN > RTM,air,1,Air,91701,1.9,2.0,0.05,0.26,0.1
+S157,S157-R3,SIN > PAN > RTM,sea>sea,2,Panama,7848,40.3,41.0,0.19,0.23,0.17
+S157,S157-R4,SIN > SHA > PAN > RTM,sea>sea>sea,3,Panama,9093,46.2,46.8,0.244,0.41,0.13
+S157,S157-R5,SIN > SUZ > PIR > HAM > RTM,sea>sea>sea>road,4,Suez / Red Sea,6612,33.1,33.8,0.287,0.41,0.78
+S158,S158-R1,SZX > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,581,29.3,29.8,0.228,0.3,0.82
+S158,S158-R2,SZX > RTM,air,1,Air,11174,2.0,2.1,0.046,0.43,0.1
+S158,S158-R3,SZX > PAN > RTM,sea>sea,2,Panama,709,36.2,36.6,0.15,0.31,0.15
+S158,S158-R4,SZX > SIN > CMB > CPT > RTM,sea>sea>sea>sea,4,Cape of Good Hope,875,42.4,43.2,0.315,0.26,0.14
+S158,S158-R5,SZX > SIN > NSA > SUZ > RTM,sea>sea>sea>sea,4,Suez / Red Sea,749,36.9,37.7,0.32,0.34,0.8
+S159,S159-R1,SHA > LAX,sea,1,Transpacific / US land-bridge,2808,13.5,13.7,0.105,0.7,0.19
+S159,S159-R2,SHA > LAX,air,1,Air,88509,1.6,1.7,0.052,0.42,0.12
+S159,S159-R3,SHA > PAN > NYC > LAX,sea>sea>rail,3,Panama,9187,37.1,37.8,0.262,0.41,0.14
+S160,S160-R1,SIN > LAX,sea,1,Transpacific / US land-bridge,3344,17.6,18.1,0.135,0.73,0.06
+S160,S160-R2,SIN > LAX,air,1,Air,78789,2.4,2.5,0.061,0.34,0.1
+S160,S160-R3,SIN > CMB > CPT > NYC > LAX,sea>sea>sea>rail,4,Cape of Good Hope,8994,46.1,46.9,0.299,0.29,0.1
+S160,S160-R4,SIN > SZX > LAX,sea>sea,2,Transpacific / US land-bridge,4382,22.0,22.6,0.186,0.6,0.08
+S161,S161-R1,NSA > SUZ > RTM,sea>sea,2,Suez / Red Sea,3914,21.1,21.7,0.23,0.33,0.74
+S161,S161-R2,NSA > RTM,air,1,Air,90493,2.3,2.4,0.056,0.38,0.03
+S161,S161-R3,NSA > CMB > CPT > RTM,sea>sea>sea,3,Cape of Good Hope,6133,36.3,37.0,0.225,0.29,0.1
+S162,S162-R1,SZX > PAN > NYC,sea>sea,2,Panama,5576,30.3,30.7,0.192,0.44,0.18
+S162,S162-R2,SZX > NYC,air,1,Air,79823,2.2,2.2,0.057,0.44,0.08
+S162,S162-R3,SZX > SIN > CMB > CPT > NYC,sea>sea>sea>sea,4,Cape of Good Hope,7233,43.3,43.9,0.248,0.28,0.14
+S162,S162-R4,SZX > SIN > PAN > RTM > NYC,sea>sea>sea>sea,4,Panama,9285,62.9,63.8,0.29,0.3,0.2
+S162,S162-R5,SZX > SIN > SUZ > RTM > NYC,sea>sea>sea>sea,4,Suez / Red Sea,6576,42.7,43.7,0.372,0.31,0.77
+S163,S163-R1,SZX > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,4919,35.1,35.9,0.302,0.38,0.83
+S163,S163-R2,SZX > HAM,air,1,Air,77904,1.9,2.0,0.034,0.46,0.14
+S163,S163-R3,SZX > HAM,rail,1,Eurasia rail,10796,18.2,18.5,0.093,0.49,0.48
+S163,S163-R4,SZX > PAN > RTM > HAM,sea>sea>road,3,Panama,5929,43.7,44.1,0.188,0.33,0.15
+S163,S163-R5,SZX > SIN > PAN > RTM > HAM,sea>sea>sea>road,4,Panama,7962,52.7,53.3,0.249,0.33,0.18
+S164,S164-R1,SHA > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,4194,38.2,39.1,0.373,0.41,0.68
+S164,S164-R2,SHA > HAM,air,1,Air,69371,2.0,2.1,0.041,0.5,0.06
+S164,S164-R3,SHA > PAN > RTM > HAM,sea>sea>road,3,Panama,4789,40.6,41.2,0.247,0.33,0.18
+S164,S164-R4,SHA > HAM,rail,1,Eurasia rail,8865,17.9,18.5,0.164,0.58,0.53
+S164,S164-R5,SHA > PAN > RTM > PIR > HAM,sea>sea>sea>sea,4,Panama,5912,56.3,57.1,0.323,0.32,0.18
+S165,S165-R1,SIN > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,2660,29.0,29.7,0.248,0.35,0.77
+S165,S165-R2,SIN > HAM,air,1,Air,59336,2.4,2.5,0.049,0.41,0.04
+S165,S165-R3,SIN > CMB > CPT > RTM > HAM,sea>sea>sea>road,4,Cape of Good Hope,4392,40.5,41.1,0.233,0.19,0.12
+S165,S165-R4,SIN > SZX > HAM,sea>rail,2,Eurasia rail,8638,26.5,26.9,0.122,0.46,0.55
+S166,S166-R1,SIN > LAX,sea,1,Transpacific / US land-bridge,1992,17.3,17.6,0.117,0.7,0.09
+S166,S166-R2,SIN > LAX,air,1,Air,46961,2.4,2.4,0.051,0.18,0.14
+S166,S166-R3,SIN > CMB > CPT > NYC > LAX,sea>sea>sea>rail,4,Cape of Good Hope,5254,46.5,47.3,0.304,0.31,0.13
+S166,S166-R4,SIN > SZX > LAX,sea>sea,2,Transpacific / US land-bridge,2609,22.1,22.7,0.179,0.67,0.13
+S167,S167-R1,SIN > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,5092,29.9,30.7,0.283,0.42,0.73
+S167,S167-R2,SIN > HAM,air,1,Air,107301,2.2,2.2,0.054,0.44,0.04
+S167,S167-R3,SIN > PAN > RTM > HAM,sea>sea>road,3,Panama,8330,45.0,45.4,0.164,0.25,0.14
+S167,S167-R4,SIN > CMB > CPT > RTM > HAM,sea>sea>sea>road,4,Cape of Good Hope,8073,39.6,40.4,0.287,0.25,0.13
+S168,S168-R1,NSA > SIN > LAX,sea>sea,2,Transpacific / US land-bridge,5659,28.7,29.5,0.265,0.58,0.11
+S168,S168-R2,NSA > LAX,air,1,Air,119586,3.1,3.1,0.047,0.34,0.09
+S168,S168-R3,NSA > SIN > SZX > LAX,sea>sea>sea,3,Transpacific / US land-bridge,7044,32.0,32.6,0.235,0.49,0.13
+S169,S169-R1,SHA > PAN > NYC,sea>sea,2,Panama,4028,30.4,30.8,0.183,0.42,0.13
+S169,S169-R2,SHA > NYC,air,1,Air,70001,2.1,2.1,0.041,0.4,0.1
+S169,S169-R3,SHA > PAN > RTM > CPT > NYC,sea>sea>sea>sea,4,Cape of Good Hope,9037,75.6,76.5,0.327,0.28,0.13
+S170,S170-R1,NSA > SIN > LAX,sea>sea,2,Transpacific / US land-bridge,1525,28.4,29.0,0.222,0.56,0.2
+S170,S170-R2,NSA > LAX,air,1,Air,25118,2.9,3.0,0.07,0.26,0.08
+S170,S170-R3,NSA > CMB > CPT > NYC > LAX,sea>sea>sea>rail,4,Cape of Good Hope,2538,47.0,47.8,0.288,0.27,0.17
+S171,S171-R1,SIN > LAX,sea,1,Transpacific / US land-bridge,2300,17.1,17.8,0.182,0.64,0.1
+S171,S171-R2,SIN > LAX,air,1,Air,52917,2.4,2.4,0.047,0.28,0.03
+S171,S171-R3,SIN > PAN > NYC > LAX,sea>sea>rail,3,Panama,6120,41.9,42.9,0.287,0.29,0.12
+S172,S172-R1,SIN > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,4036,29.3,30.1,0.312,0.39,0.75
+S172,S172-R2,SIN > HAM,air,1,Air,84149,2.3,2.4,0.05,0.33,0.07
+S172,S172-R3,SIN > PAN > RTM > HAM,sea>sea>road,3,Panama,6638,46.4,46.9,0.221,0.38,0.16
+S172,S172-R4,SIN > SZX > HAM,sea>rail,2,Eurasia rail,13299,26.3,26.8,0.156,0.5,0.52
+S172,S172-R5,SIN > SHA > PAN > NYC > HAM,sea>sea>sea>sea,4,Panama,7792,52.2,53.1,0.284,0.34,0.09
+S173,S173-R1,SHA > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,6258,31.8,32.6,0.276,0.39,0.75
+S173,S173-R2,SHA > RTM,air,1,Air,99402,1.9,2.0,0.048,0.54,0.14
+S173,S173-R3,SHA > PAN > RTM,sea>sea,2,Panama,6830,36.6,37.1,0.18,0.3,0.12
+S173,S173-R4,SHA > PAN > NYC > CPT > RTM,sea>sea>sea>sea,4,Cape of Good Hope,12321,64.7,66.0,0.378,0.27,0.12
+S174,S174-R1,NSA > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,5410,26.0,26.6,0.243,0.28,0.69
+S174,S174-R2,NSA > HAM,air,1,Air,122581,2.3,2.4,0.075,0.33,0.11
+S174,S174-R3,NSA > CMB > CPT > RTM > HAM,sea>sea>sea>road,4,Cape of Good Hope,9804,40.5,41.3,0.343,0.23,0.13
+S174,S174-R4,NSA > SUZ > PIR > RTM > HAM,sea>sea>sea>road,4,Suez / Red Sea,6563,28.3,28.9,0.289,0.32,0.69
+S175,S175-R1,SHA > LAX,sea,1,Transpacific / US land-bridge,2084,14.5,14.8,0.113,0.65,0.1
+S175,S175-R2,SHA > LAX,air,1,Air,55073,1.5,1.5,0.038,0.42,0.07
+S175,S175-R3,SHA > PAN > RTM > NYC > LAX,sea>sea>sea>rail,4,Panama,8528,61.6,62.6,0.353,0.41,0.16
+S176,S176-R1,SIN > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,3861,36.6,37.6,0.325,0.41,0.73
+S176,S176-R2,SIN > NYC,air,1,Air,64635,2.7,2.8,0.056,0.4,0.1
+S176,S176-R3,SIN > PAN > NYC,sea>sea,2,Panama,3986,33.0,33.4,0.169,0.3,0.15
+S176,S176-R4,SIN > CMB > CPT > NYC,sea>sea>sea,3,Cape of Good Hope,4317,36.6,37.4,0.252,0.18,0.08
+S177,S177-R1,SHA > PAN > NYC,sea>sea,2,Panama,7252,29.7,30.2,0.194,0.34,0.16
+S177,S177-R2,SHA > NYC,air,1,Air,113185,2.0,2.0,0.036,0.36,0.03
+S177,S177-R3,SHA > SIN > PAN > RTM > NYC,sea>sea>sea>sea,4,Panama,13750,62.9,63.9,0.308,0.32,0.1
+S177,S177-R4,SHA > SIN > SUZ > RTM > NYC,sea>sea>sea>sea,4,Suez / Red Sea,9869,46.8,48.1,0.38,0.39,0.71
+S178,S178-R1,NSA > SIN > LAX,sea>sea,2,Transpacific / US land-bridge,1917,28.1,28.7,0.217,0.55,0.12
+S178,S178-R2,NSA > LAX,air,1,Air,37459,3.0,3.1,0.063,0.38,0.17
+S178,S178-R3,NSA > CMB > CPT > NYC > LAX,sea>sea>sea>rail,4,Cape of Good Hope,3371,46.2,47.2,0.319,0.32,0.15
+S179,S179-R1,SHA > LAX,sea,1,Transpacific / US land-bridge,895,13.8,14.0,0.094,0.75,0.13
+S179,S179-R2,SHA > LAX,air,1,Air,22314,1.5,1.6,0.065,0.56,0.07
+S179,S179-R3,SHA > PAN > RTM > NYC > LAX,sea>sea>sea>rail,4,Panama,3303,59.0,59.9,0.338,0.38,0.15
+S180,S180-R1,SIN > LAX,sea,1,Transpacific / US land-bridge,1878,18.5,18.9,0.123,0.6,0.06
+S180,S180-R2,SIN > LAX,air,1,Air,47250,2.3,2.3,0.068,0.24,0.04
+S180,S180-R3,SIN > CMB > CPT > NYC > LAX,sea>sea>sea>rail,4,Cape of Good Hope,5043,44.7,45.5,0.303,0.23,0.13
+S180,S180-R4,SIN > SZX > LAX,sea>sea,2,Transpacific / US land-bridge,2408,21.5,21.9,0.163,0.64,0.08
+S181,S181-R1,NSA > SIN > LAX,sea>sea,2,Transpacific / US land-bridge,2957,27.7,28.1,0.183,0.58,0.17
+S181,S181-R2,NSA > LAX,air,1,Air,52642,3.3,3.3,0.063,0.35,0.04
+S181,S181-R3,NSA > CMB > CPT > NYC > LAX,sea>sea>sea>rail,4,Cape of Good Hope,5312,45.4,46.3,0.305,0.27,0.14
+S181,S181-R4,NSA > SUZ > SIN > SHA > LAX,sea>sea>sea>sea,4,Suez / Red Sea,4657,49.1,51.0,0.479,0.43,0.83
+S182,S182-R1,SHA > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,2333,37.8,38.6,0.283,0.36,0.73
+S182,S182-R2,SHA > HAM,air,1,Air,41916,2.1,2.1,0.056,0.35,0.04
+S182,S182-R3,SHA > PAN > RTM > HAM,sea>sea>road,3,Panama,2946,42.7,43.2,0.207,0.33,0.08
+S182,S182-R4,SHA > HAM,rail,1,Eurasia rail,5267,16.2,16.7,0.121,0.58,0.56
+S183,S183-R1,SIN > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,4702,29.3,30.3,0.323,0.38,0.8
+S183,S183-R2,SIN > HAM,air,1,Air,98575,2.2,2.3,0.055,0.28,0.07
+S183,S183-R3,SIN > CMB > CPT > RTM > HAM,sea>sea>sea>road,4,Cape of Good Hope,7857,39.0,39.6,0.269,0.21,0.14
+S184,S184-R1,NSA > SIN > LAX,sea>sea,2,Transpacific / US land-bridge,4884,26.6,27.3,0.244,0.59,0.08
+S184,S184-R2,NSA > LAX,air,1,Air,94151,3.0,3.1,0.078,0.41,0.06
+S184,S184-R3,NSA > CMB > CPT > NYC > LAX,sea>sea>sea>rail,4,Cape of Good Hope,8760,43.8,44.4,0.232,0.34,0.1
+S184,S184-R4,NSA > CMB > SIN > SZX > LAX,sea>sea>sea>sea,4,Transpacific / US land-bridge,6804,33.7,34.7,0.317,0.43,0.16
+S184,S184-R5,NSA > SIN > SHA > LAX,sea>sea>sea,3,Transpacific / US land-bridge,5577,32.0,32.7,0.272,0.55,0.15
+S185,S185-R1,SIN > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,5006,37.6,38.3,0.263,0.41,0.65
+S185,S185-R2,SIN > NYC,air,1,Air,74479,3.0,3.0,0.039,0.31,0.06
+S185,S185-R3,SIN > CMB > CPT > NYC,sea>sea>sea,3,Cape of Good Hope,5198,37.5,38.1,0.213,0.27,0.1
+S185,S185-R4,SIN > PAN > NYC,sea>sea,2,Panama,5034,33.4,33.8,0.196,0.37,0.1
+S185,S185-R5,SIN > SUZ > RTM > HAM > NYC,sea>sea>road>sea,4,Suez / Red Sea,5753,40.3,41.2,0.306,0.42,0.65
+S186,S186-R1,SHA > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,721,38.7,39.4,0.331,0.43,0.8
+S186,S186-R2,SHA > HAM,air,1,Air,14354,1.9,2.0,0.06,0.49,0.07
+S186,S186-R3,SHA > HAM,rail,1,Eurasia rail,1587,17.6,18.0,0.107,0.51,0.57
+S186,S186-R4,SHA > PAN > NYC > RTM > HAM,sea>sea>sea>road,4,Panama,1034,45.0,45.7,0.312,0.32,0.21
+S186,S186-R5,SHA > SIN > LAX > NYC > HAM,sea>sea>rail>sea,4,Transpacific / US land-bridge,1437,50.8,51.9,0.369,0.53,0.2
+S187,S187-R1,SHA > PAN > NYC,sea>sea,2,Panama,1006,30.2,30.8,0.209,0.33,0.17
+S187,S187-R2,SHA > NYC,air,1,Air,16770,2.0,2.0,0.046,0.48,0.12
+S187,S187-R3,SHA > SIN > PAN > NYC,sea>sea>sea,3,Panama,1432,41.6,42.3,0.237,0.33,0.14
+S187,S187-R4,SHA > SIN > SUZ > RTM > NYC,sea>sea>sea>sea,4,Suez / Red Sea,1413,44.5,45.8,0.401,0.36,0.8
+S188,S188-R1,SIN > LAX,sea,1,Transpacific / US land-bridge,4771,17.6,18.2,0.198,0.68,0.12
+S188,S188-R2,SIN > LAX,air,1,Air,109324,2.5,2.5,0.08,0.15,0.09
+S188,S188-R3,SIN > SZX > LAX,sea>sea,2,Transpacific / US land-bridge,6282,22.8,23.2,0.172,0.73,0.16
+S188,S188-R4,SIN > CMB > CPT > NYC > LAX,sea>sea>sea>rail,4,Cape of Good Hope,12886,46.5,47.5,0.378,0.3,0.09
+S188,S188-R5,SIN > SHA > LAX,sea>sea,2,Transpacific / US land-bridge,6113,22.8,23.3,0.206,0.54,0.21
+S189,S189-R1,SHA > PAN > NYC,sea>sea,2,Panama,4159,28.8,29.4,0.192,0.32,0.11
+S189,S189-R2,SHA > NYC,air,1,Air,75100,2.0,2.0,0.042,0.45,0.12
+S189,S189-R3,SHA > SIN > CMB > CPT > NYC,sea>sea>sea>sea,4,Cape of Good Hope,6560,45.3,46.1,0.307,0.22,0.09
+S189,S189-R4,SHA > SIN > SZX > PAN > NYC,sea>sea>sea>sea,4,Panama,7623,46.1,46.9,0.276,0.35,0.15
+S190,S190-R1,SZX > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,4752,36.8,37.9,0.328,0.33,0.77
+S190,S190-R2,SZX > HAM,air,1,Air,75751,2.1,2.1,0.045,0.51,0.08
+S190,S190-R3,SZX > HAM,rail,1,Eurasia rail,11977,20.5,21.0,0.121,0.49,0.58
+S190,S190-R4,SZX > SIN > PAN > NYC > HAM,sea>sea>sea>sea,4,Panama,8295,53.3,54.3,0.332,0.35,0.09
+S190,S190-R5,SZX > LAX > NYC > RTM > HAM,sea>rail>sea>road,4,Transpacific / US land-bridge,8773,41.1,42.2,0.421,0.55,0.13
+S191,S191-R1,NSA > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,3726,32.9,34.1,0.333,0.36,0.77
+S191,S191-R2,NSA > NYC,air,1,Air,64392,2.7,2.7,0.046,0.3,0.13
+S191,S191-R3,NSA > CMB > CPT > NYC,sea>sea>sea,3,Cape of Good Hope,4038,36.6,37.1,0.178,0.29,0.07
+S191,S191-R4,NSA > CMB > CPT > RTM > NYC,sea>sea>sea>sea,4,Cape of Good Hope,5395,48.4,49.3,0.292,0.22,0.05
+S191,S191-R5,NSA > SUZ > RTM > HAM > NYC,sea>sea>road>sea,4,Suez / Red Sea,4566,35.9,37.2,0.386,0.37,0.77
+S192,S192-R1,NSA > SUZ > RTM,sea>sea,2,Suez / Red Sea,2074,19.9,20.6,0.247,0.29,0.76
+S192,S192-R2,NSA > RTM,air,1,Air,49432,2.3,2.3,0.074,0.37,0.1
+S192,S192-R3,NSA > CMB > CPT > RTM,sea>sea>sea,3,Cape of Good Hope,3333,34.7,35.4,0.194,0.27,0.12
+S192,S192-R4,NSA > SIN > PAN > RTM,sea>sea>sea,3,Panama,4867,52.2,52.8,0.205,0.26,0.12
+S193,S193-R1,SHA > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,7067,38.7,40.2,0.433,0.41,0.77
+S193,S193-R2,SHA > HAM,air,1,Air,104078,1.9,1.9,0.062,0.44,0.08
+S193,S193-R3,SHA > PAN > RTM > HAM,sea>sea>road,3,Panama,8450,41.6,42.1,0.221,0.33,0.14
+S194,S194-R1,SIN > SUZ > RTM > NYC,sea>sea>sea,3,Suez / Red Sea,1395,36.6,37.5,0.303,0.43,0.73
+S194,S194-R2,SIN > NYC,air,1,Air,24568,2.9,2.9,0.046,0.21,0.08
+S194,S194-R3,SIN > PAN > NYC,sea>sea,2,Panama,1532,33.5,33.9,0.171,0.31,0.18
+S194,S194-R4,SIN > SHA > PAN > RTM > NYC,sea>sea>sea>sea,4,Panama,2351,59.5,60.6,0.336,0.31,0.1
+S194,S194-R5,SIN > PAN > RTM > NYC,sea>sea>sea,3,Panama,2237,55.4,56.2,0.261,0.32,0.15
+S195,S195-R1,SIN > LAX,sea,1,Transpacific / US land-bridge,394,18.0,18.3,0.102,0.55,0.07
+S195,S195-R2,SIN > LAX,air,1,Air,8960,2.3,2.4,0.049,0.24,0.03
+S195,S195-R3,SIN > CMB > CPT > NYC > LAX,sea>sea>sea>rail,4,Cape of Good Hope,1064,47.3,48.1,0.31,0.29,0.14
+S195,S195-R4,SIN > SHA > LAX,sea>sea,2,Transpacific / US land-bridge,495,23.5,24.0,0.197,0.58,0.08
+S196,S196-R1,SZX > PAN > NYC,sea>sea,2,Panama,4760,31.0,31.4,0.142,0.22,0.17
+S196,S196-R2,SZX > NYC,air,1,Air,73977,2.3,2.3,0.057,0.33,0.16
+S196,S196-R3,SZX > SIN > PAN > NYC,sea>sea>sea,3,Panama,6021,40.7,41.4,0.235,0.23,0.16
+S196,S196-R4,SZX > SIN > SHA > PAN > NYC,sea>sea>sea>sea,4,Panama,6906,44.3,45.1,0.332,0.34,0.15
+S197,S197-R1,SHA > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,2702,33.6,34.3,0.306,0.37,0.78
+S197,S197-R2,SHA > RTM,air,1,Air,47635,1.9,2.0,0.056,0.32,0.07
+S197,S197-R3,SHA > PAN > RTM,sea>sea,2,Panama,3012,38.1,38.6,0.203,0.37,0.21
+S197,S197-R4,SHA > HAM > RTM,rail>road,2,Eurasia rail,7778,21.8,22.2,0.161,0.57,0.5
+S197,S197-R5,SHA > SIN > CMB > CPT > RTM,sea>sea>sea>sea,4,Cape of Good Hope,3938,44.6,45.4,0.294,0.28,0.14
+S198,S198-R1,SZX > SIN > SUZ > RTM,sea>sea>sea,3,Suez / Red Sea,2290,31.2,31.8,0.277,0.47,0.7
+S198,S198-R2,SZX > RTM,air,1,Air,42942,1.9,2.0,0.074,0.38,0.11
+S198,S198-R3,SZX > PAN > RTM,sea>sea,2,Panama,2829,37.0,37.6,0.174,0.44,0.19
+S198,S198-R4,SZX > SIN > CMB > CPT > RTM,sea>sea>sea>sea,4,Cape of Good Hope,3527,42.8,43.5,0.257,0.31,0.18
+S199,S199-R1,NSA > SUZ > PIR > HAM,sea>sea>sea,3,Suez / Red Sea,5067,26.3,27.3,0.324,0.33,0.75
+S199,S199-R2,NSA > HAM,air,1,Air,97863,2.3,2.4,0.052,0.43,0.01
+S199,S199-R3,NSA > CMB > CPT > RTM > HAM,sea>sea>sea>road,4,Cape of Good Hope,7649,39.7,40.4,0.287,0.22,0.12
+S200,S200-R1,SZX > SIN > SUZ > PIR > HAM,sea>sea>sea>sea,4,Suez / Red Sea,5245,34.8,35.6,0.312,0.36,0.76
+S200,S200-R2,SZX > HAM,air,1,Air,81417,2.0,2.1,0.052,0.36,0.11
+S200,S200-R3,SZX > PAN > RTM > HAM,sea>sea>road,3,Panama,6884,42.8,43.3,0.233,0.37,0.13
+S200,S200-R4,SZX > HAM,rail,1,Eurasia rail,12957,18.7,19.1,0.101,0.56,0.57
+S200,S200-R5,SZX > PAN > RTM > PIR > HAM,sea>sea>sea>sea,4,Panama,8515,58.5,59.2,0.269,0.36,0.13

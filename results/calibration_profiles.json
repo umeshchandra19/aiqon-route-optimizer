@@ -1,0 +1,278 @@
+{
+  "standard": {
+    "n_shipments": 81,
+    "sla_target": 0.9,
+    "chosen_cost_weight": 0.45,
+    "weights": {
+      "cost": 0.45,
+      "time": 0.22000000000000003,
+      "reliability": 0.22000000000000003,
+      "risk": 0.11000000000000001
+    },
+    "min_ontime": 0.7,
+    "grid": [
+      {
+        "cost_weight": 0.1,
+        "regret_pct_of_value": 44.966588244408165,
+        "mean_p_ontime": 0.9993858024691358
+      },
+      {
+        "cost_weight": 0.15,
+        "regret_pct_of_value": 33.54167554076897,
+        "mean_p_ontime": 0.9984259259259259
+      },
+      {
+        "cost_weight": 0.2,
+        "regret_pct_of_value": 20.378165489989097,
+        "mean_p_ontime": 0.9974845679012345
+      },
+      {
+        "cost_weight": 0.25,
+        "regret_pct_of_value": 6.051522602658536,
+        "mean_p_ontime": 0.9944043209876544
+      },
+      {
+        "cost_weight": 0.3,
+        "regret_pct_of_value": 1.1905953056585639,
+        "mean_p_ontime": 0.9937716049382715
+      },
+      {
+        "cost_weight": 0.35,
+        "regret_pct_of_value": 0.42511020919906173,
+        "mean_p_ontime": 0.9935370370370369
+      },
+      {
+        "cost_weight": 0.4,
+        "regret_pct_of_value": 0.36804559935592945,
+        "mean_p_ontime": 0.993611111111111
+      },
+      {
+        "cost_weight": 0.45,
+        "regret_pct_of_value": 0.263411487525456,
+        "mean_p_ontime": 0.9934135802469135
+      },
+      {
+        "cost_weight": 0.5,
+        "regret_pct_of_value": 0.2874564051450266,
+        "mean_p_ontime": 0.9934351851851851
+      },
+      {
+        "cost_weight": 0.6,
+        "regret_pct_of_value": 0.25196857020847496,
+        "mean_p_ontime": 0.9934012345679011
+      },
+      {
+        "cost_weight": 0.7,
+        "regret_pct_of_value": 0.19842937925792617,
+        "mean_p_ontime": 0.9918086419753085
+      }
+    ]
+  },
+  "perishable": {
+    "n_shipments": 36,
+    "sla_target": 0.93,
+    "chosen_cost_weight": 0.4,
+    "weights": {
+      "cost": 0.4,
+      "time": 0.264,
+      "reliability": 0.222,
+      "risk": 0.11399999999999999
+    },
+    "min_ontime": 0.85,
+    "grid": [
+      {
+        "cost_weight": 0.1,
+        "regret_pct_of_value": 21.37923856209038,
+        "mean_p_ontime": 1.0
+      },
+      {
+        "cost_weight": 0.15,
+        "regret_pct_of_value": 19.749157479664127,
+        "mean_p_ontime": 0.9995763888888889
+      },
+      {
+        "cost_weight": 0.2,
+        "regret_pct_of_value": 16.781673038069645,
+        "mean_p_ontime": 0.9954097222222222
+      },
+      {
+        "cost_weight": 0.25,
+        "regret_pct_of_value": 12.57384013409178,
+        "mean_p_ontime": 0.9935902777777778
+      },
+      {
+        "cost_weight": 0.3,
+        "regret_pct_of_value": 6.470247982698994,
+        "mean_p_ontime": 0.986923611111111
+      },
+      {
+        "cost_weight": 0.35,
+        "regret_pct_of_value": 1.2514357839780106,
+        "mean_p_ontime": 0.9767430555555554
+      },
+      {
+        "cost_weight": 0.4,
+        "regret_pct_of_value": 0.04380107363675409,
+        "mean_p_ontime": 0.9731805555555554
+      },
+      {
+        "cost_weight": 0.45,
+        "regret_pct_of_value": 0.04380107363675409,
+        "mean_p_ontime": 0.9731805555555554
+      },
+      {
+        "cost_weight": 0.5,
+        "regret_pct_of_value": 0.04380107363675409,
+        "mean_p_ontime": 0.9731805555555554
+      },
+      {
+        "cost_weight": 0.6,
+        "regret_pct_of_value": 0.04380107363675409,
+        "mean_p_ontime": 0.9731805555555554
+      },
+      {
+        "cost_weight": 0.7,
+        "regret_pct_of_value": 0.04380107363675409,
+        "mean_p_ontime": 0.9731805555555554
+      }
+    ]
+  },
+  "high_value": {
+    "n_shipments": 50,
+    "sla_target": 0.95,
+    "chosen_cost_weight": 0.6,
+    "weights": {
+      "cost": 0.6,
+      "time": 0.072,
+      "reliability": 0.11599999999999999,
+      "risk": 0.21200000000000002
+    },
+    "min_ontime": 0.8,
+    "grid": [
+      {
+        "cost_weight": 0.1,
+        "regret_pct_of_value": 1.9885933044570863,
+        "mean_p_ontime": 1.0
+      },
+      {
+        "cost_weight": 0.15,
+        "regret_pct_of_value": 1.9885933044570863,
+        "mean_p_ontime": 1.0
+      },
+      {
+        "cost_weight": 0.2,
+        "regret_pct_of_value": 1.9885933044570863,
+        "mean_p_ontime": 1.0
+      },
+      {
+        "cost_weight": 0.25,
+        "regret_pct_of_value": 1.7781812286586955,
+        "mean_p_ontime": 0.999725
+      },
+      {
+        "cost_weight": 0.3,
+        "regret_pct_of_value": 1.4055236069919388,
+        "mean_p_ontime": 0.9993950000000001
+      },
+      {
+        "cost_weight": 0.35,
+        "regret_pct_of_value": 1.0554497785209123,
+        "mean_p_ontime": 0.9990600000000001
+      },
+      {
+        "cost_weight": 0.4,
+        "regret_pct_of_value": 0.9286780123109828,
+        "mean_p_ontime": 0.9986950000000001
+      },
+      {
+        "cost_weight": 0.45,
+        "regret_pct_of_value": 0.687715655091455,
+        "mean_p_ontime": 0.9964750000000001
+      },
+      {
+        "cost_weight": 0.5,
+        "regret_pct_of_value": 0.6265613071513866,
+        "mean_p_ontime": 0.99626
+      },
+      {
+        "cost_weight": 0.6,
+        "regret_pct_of_value": 0.4623088019942382,
+        "mean_p_ontime": 0.98694
+      },
+      {
+        "cost_weight": 0.7,
+        "regret_pct_of_value": 0.43175462044353674,
+        "mean_p_ontime": 0.9864449999999999
+      }
+    ]
+  },
+  "urgent": {
+    "n_shipments": 33,
+    "sla_target": 0.95,
+    "chosen_cost_weight": 0.1,
+    "weights": {
+      "cost": 0.1,
+      "time": 0.5040000000000001,
+      "reliability": 0.29700000000000004,
+      "risk": 0.099
+    },
+    "min_ontime": 0.9,
+    "grid": [
+      {
+        "cost_weight": 0.1,
+        "regret_pct_of_value": 1.9029168019166165,
+        "mean_p_ontime": 1.0
+      },
+      {
+        "cost_weight": 0.15,
+        "regret_pct_of_value": 1.9029168019166165,
+        "mean_p_ontime": 1.0
+      },
+      {
+        "cost_weight": 0.2,
+        "regret_pct_of_value": 1.9029168019166165,
+        "mean_p_ontime": 1.0
+      },
+      {
+        "cost_weight": 0.25,
+        "regret_pct_of_value": 1.9029168019166165,
+        "mean_p_ontime": 1.0
+      },
+      {
+        "cost_weight": 0.3,
+        "regret_pct_of_value": 1.9029168019166165,
+        "mean_p_ontime": 1.0
+      },
+      {
+        "cost_weight": 0.35,
+        "regret_pct_of_value": 1.9029168019166165,
+        "mean_p_ontime": 1.0
+      },
+      {
+        "cost_weight": 0.4,
+        "regret_pct_of_value": 1.9029168019166165,
+        "mean_p_ontime": 1.0
+      },
+      {
+        "cost_weight": 0.45,
+        "regret_pct_of_value": 1.9029168019166165,
+        "mean_p_ontime": 1.0
+      },
+      {
+        "cost_weight": 0.5,
+        "regret_pct_of_value": 1.9029168019166165,
+        "mean_p_ontime": 1.0
+      },
+      {
+        "cost_weight": 0.6,
+        "regret_pct_of_value": 1.9029168019166165,
+        "mean_p_ontime": 1.0
+      },
+      {
+        "cost_weight": 0.7,
+        "regret_pct_of_value": 1.9029168019166165,
+        "mean_p_ontime": 1.0
+      }
+    ]
+  }
+}

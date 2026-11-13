@@ -1,0 +1,201 @@
+shipment_id,origin,destination,origin_name,destination_name,cargo_type,weight_t,value_usd,deadline_days,market_rate_index,n_routes
+S001,SHA,HAM,Shanghai,Hamburg,perishable,16.7,309600.0,25.0,1.044,4
+S002,SHA,RTM,Shanghai,Rotterdam,urgent,3.2,130800.0,10.0,1.029,4
+S003,SZX,LAX,Shenzhen,Los Angeles / Long Beach,standard,19.0,81700.0,25.0,1.077,5
+S004,NSA,RTM,Nhava Sheva (Mumbai),Rotterdam,perishable,17.5,227300.0,28.0,0.984,5
+S005,SZX,NYC,Shenzhen,New York / New Jersey,standard,30.4,190900.0,58.0,1.23,3
+S006,SZX,NYC,Shenzhen,New York / New Jersey,standard,7.7,54800.0,52.0,1.054,5
+S007,SZX,RTM,Shenzhen,Rotterdam,perishable,23.1,387200.0,34.0,1.099,5
+S008,SIN,NYC,Singapore,New York / New Jersey,urgent,22.7,545700.0,24.0,0.905,5
+S009,SHA,RTM,Shanghai,Rotterdam,standard,20.7,163000.0,43.0,0.928,5
+S010,NSA,NYC,Nhava Sheva (Mumbai),New York / New Jersey,urgent,19.8,780600.0,24.0,0.928,4
+S011,SIN,NYC,Singapore,New York / New Jersey,perishable,16.9,326100.0,45.0,1.023,5
+S012,SZX,HAM,Shenzhen,Hamburg,high_value,22.1,1676400.0,27.0,1.113,5
+S013,SIN,LAX,Singapore,Los Angeles / Long Beach,urgent,31.2,1571900.0,16.0,1.178,5
+S014,NSA,NYC,Nhava Sheva (Mumbai),New York / New Jersey,standard,34.3,337000.0,47.0,1.186,3
+S015,SZX,LAX,Shenzhen,Los Angeles / Long Beach,standard,6.7,27800.0,24.0,1.164,5
+S016,SHA,NYC,Shanghai,New York / New Jersey,standard,34.3,334900.0,45.0,0.931,5
+S017,SIN,RTM,Singapore,Rotterdam,standard,4.0,21600.0,41.0,1.151,4
+S018,SHA,HAM,Shanghai,Hamburg,standard,5.0,35600.0,66.0,1.059,3
+S019,SIN,RTM,Singapore,Rotterdam,urgent,25.2,957300.0,23.0,0.915,3
+S020,SZX,NYC,Shenzhen,New York / New Jersey,high_value,8.4,1064600.0,47.0,1.122,5
+S021,SIN,NYC,Singapore,New York / New Jersey,standard,16.0,64600.0,45.0,1.061,3
+S022,SIN,LAX,Singapore,Los Angeles / Long Beach,perishable,5.4,62400.0,26.0,1.163,5
+S023,SZX,HAM,Shenzhen,Hamburg,high_value,15.3,660300.0,49.0,0.989,3
+S024,SZX,LAX,Shenzhen,Los Angeles / Long Beach,perishable,13.0,123500.0,21.0,1.047,3
+S025,SIN,HAM,Singapore,Hamburg,standard,20.9,138000.0,43.0,1.029,3
+S026,SZX,HAM,Shenzhen,Hamburg,high_value,7.8,698400.0,31.0,1.207,5
+S027,NSA,LAX,Nhava Sheva (Mumbai),Los Angeles / Long Beach,urgent,9.7,380500.0,27.0,1.224,5
+S028,SIN,HAM,Singapore,Hamburg,standard,13.9,65800.0,43.0,1.085,5
+S029,SIN,HAM,Singapore,Hamburg,high_value,24.3,2979700.0,39.0,1.017,4
+S030,NSA,LAX,Nhava Sheva (Mumbai),Los Angeles / Long Beach,standard,13.7,55700.0,42.0,1.141,3
+S031,NSA,NYC,Nhava Sheva (Mumbai),New York / New Jersey,perishable,16.0,313400.0,40.0,1.089,4
+S032,SIN,RTM,Singapore,Rotterdam,perishable,7.5,111600.0,33.0,0.949,5
+S033,SZX,RTM,Shenzhen,Rotterdam,standard,5.3,32900.0,40.0,0.969,5
+S034,SIN,RTM,Singapore,Rotterdam,standard,12.6,110300.0,39.0,1.013,4
+S035,NSA,HAM,Nhava Sheva (Mumbai),Hamburg,standard,9.5,47800.0,34.0,0.967,4
+S036,SHA,LAX,Shanghai,Los Angeles / Long Beach,urgent,13.1,290600.0,8.0,0.938,5
+S037,SZX,NYC,Shenzhen,New York / New Jersey,perishable,21.3,296500.0,40.0,0.943,3
+S038,SIN,NYC,Singapore,New York / New Jersey,urgent,6.9,286300.0,17.0,0.958,3
+S039,NSA,LAX,Nhava Sheva (Mumbai),Los Angeles / Long Beach,urgent,20.7,885100.0,28.0,0.939,5
+S040,SIN,LAX,Singapore,Los Angeles / Long Beach,high_value,8.0,432400.0,30.0,1.089,4
+S041,NSA,NYC,Nhava Sheva (Mumbai),New York / New Jersey,high_value,17.4,2370800.0,57.0,1.021,4
+S042,SZX,LAX,Shenzhen,Los Angeles / Long Beach,high_value,8.4,371900.0,22.0,1.159,3
+S043,SZX,NYC,Shenzhen,New York / New Jersey,standard,12.4,104600.0,47.0,1.042,3
+S044,SHA,LAX,Shanghai,Los Angeles / Long Beach,standard,7.9,63300.0,19.0,1.139,3
+S045,SZX,RTM,Shenzhen,Rotterdam,standard,31.2,202300.0,51.0,0.989,5
+S046,NSA,HAM,Nhava Sheva (Mumbai),Hamburg,perishable,29.5,358300.0,30.0,1.11,3
+S047,SZX,RTM,Shenzhen,Rotterdam,high_value,26.2,1549100.0,40.0,1.064,5
+S048,SIN,RTM,Singapore,Rotterdam,standard,26.8,136300.0,41.0,1.133,5
+S049,SZX,LAX,Shenzhen,Los Angeles / Long Beach,standard,6.0,55300.0,25.0,1.01,3
+S050,SHA,RTM,Shanghai,Rotterdam,standard,26.3,193000.0,48.0,1.051,5
+S051,SZX,LAX,Shenzhen,Los Angeles / Long Beach,standard,31.1,188400.0,19.0,1.178,4
+S052,SZX,HAM,Shenzhen,Hamburg,high_value,14.5,1702100.0,34.0,0.999,4
+S053,NSA,LAX,Nhava Sheva (Mumbai),Los Angeles / Long Beach,standard,15.0,115600.0,44.0,1.147,3
+S054,SZX,RTM,Shenzhen,Rotterdam,high_value,7.6,757200.0,51.0,0.983,5
+S055,SIN,LAX,Singapore,Los Angeles / Long Beach,high_value,9.0,783600.0,34.0,1.031,4
+S056,NSA,HAM,Nhava Sheva (Mumbai),Hamburg,perishable,29.7,358400.0,32.0,0.937,5
+S057,SZX,RTM,Shenzhen,Rotterdam,standard,15.6,81500.0,38.0,1.083,5
+S058,SHA,HAM,Shanghai,Hamburg,high_value,3.1,167200.0,29.0,0.93,4
+S059,SHA,RTM,Shanghai,Rotterdam,high_value,33.6,4196700.0,50.0,0.931,4
+S060,SIN,NYC,Singapore,New York / New Jersey,high_value,25.0,3647000.0,63.0,1.157,3
+S061,NSA,HAM,Nhava Sheva (Mumbai),Hamburg,standard,15.2,98100.0,35.0,0.957,5
+S062,NSA,NYC,Nhava Sheva (Mumbai),New York / New Jersey,high_value,18.6,1512300.0,53.0,1.019,3
+S063,SHA,HAM,Shanghai,Hamburg,standard,19.8,126400.0,31.0,1.11,5
+S064,NSA,RTM,Nhava Sheva (Mumbai),Rotterdam,standard,18.4,134900.0,40.0,1.089,3
+S065,SHA,NYC,Shanghai,New York / New Jersey,urgent,23.3,1056700.0,23.0,1.123,3
+S066,NSA,HAM,Nhava Sheva (Mumbai),Hamburg,high_value,3.9,528400.0,37.0,1.035,4
+S067,SZX,LAX,Shenzhen,Los Angeles / Long Beach,perishable,32.9,461800.0,19.0,1.004,5
+S068,SZX,NYC,Shenzhen,New York / New Jersey,high_value,12.1,1782800.0,42.0,1.068,3
+S069,SZX,RTM,Shenzhen,Rotterdam,standard,5.2,40900.0,57.0,0.926,4
+S070,NSA,RTM,Nhava Sheva (Mumbai),Rotterdam,perishable,14.8,133100.0,24.0,0.921,3
+S071,SIN,HAM,Singapore,Hamburg,high_value,30.4,1535200.0,43.0,1.047,5
+S072,SHA,RTM,Shanghai,Rotterdam,standard,6.4,30300.0,50.0,1.157,4
+S073,SHA,RTM,Shanghai,Rotterdam,urgent,21.7,571500.0,18.0,0.949,5
+S074,SIN,LAX,Singapore,Los Angeles / Long Beach,high_value,26.7,2574000.0,27.0,0.925,5
+S075,SZX,LAX,Shenzhen,Los Angeles / Long Beach,perishable,24.1,480700.0,21.0,1.093,4
+S076,NSA,HAM,Nhava Sheva (Mumbai),Hamburg,standard,25.9,191000.0,43.0,1.25,5
+S077,SZX,HAM,Shenzhen,Hamburg,standard,23.8,129600.0,50.0,1.024,3
+S078,NSA,HAM,Nhava Sheva (Mumbai),Hamburg,standard,5.9,45600.0,39.0,1.248,5
+S079,SHA,LAX,Shanghai,Los Angeles / Long Beach,standard,25.0,107700.0,18.0,1.024,3
+S080,SHA,LAX,Shanghai,Los Angeles / Long Beach,urgent,10.3,414700.0,8.0,0.906,4
+S081,SIN,HAM,Singapore,Hamburg,perishable,30.1,470500.0,39.0,1.064,3
+S082,SZX,LAX,Shenzhen,Los Angeles / Long Beach,urgent,24.5,1299700.0,9.0,1.036,4
+S083,SZX,RTM,Shenzhen,Rotterdam,standard,8.5,79400.0,39.0,1.018,3
+S084,SZX,HAM,Shenzhen,Hamburg,standard,13.9,67100.0,28.0,1.064,4
+S085,SHA,RTM,Shanghai,Rotterdam,high_value,25.8,1752200.0,29.0,1.063,5
+S086,NSA,RTM,Nhava Sheva (Mumbai),Rotterdam,standard,3.4,21000.0,36.0,1.018,4
+S087,NSA,RTM,Nhava Sheva (Mumbai),Rotterdam,standard,23.4,155100.0,33.0,1.112,3
+S088,NSA,RTM,Nhava Sheva (Mumbai),Rotterdam,high_value,21.7,3211800.0,38.0,0.984,5
+S089,SHA,LAX,Shanghai,Los Angeles / Long Beach,high_value,26.8,2570100.0,19.0,1.143,4
+S090,SHA,LAX,Shanghai,Los Angeles / Long Beach,urgent,29.4,593400.0,12.0,0.956,4
+S091,SHA,LAX,Shanghai,Los Angeles / Long Beach,perishable,11.2,135200.0,15.0,0.92,3
+S092,NSA,NYC,Nhava Sheva (Mumbai),New York / New Jersey,high_value,10.4,1300700.0,55.0,1.048,3
+S093,SZX,NYC,Shenzhen,New York / New Jersey,urgent,24.0,1314600.0,30.0,1.033,5
+S094,SIN,RTM,Singapore,Rotterdam,urgent,18.8,583900.0,23.0,0.903,5
+S095,SIN,NYC,Singapore,New York / New Jersey,high_value,30.0,3783800.0,52.0,1.021,3
+S096,SIN,NYC,Singapore,New York / New Jersey,standard,24.2,196600.0,40.0,0.929,5
+S097,SIN,NYC,Singapore,New York / New Jersey,high_value,18.6,813000.0,42.0,1.171,5
+S098,NSA,HAM,Nhava Sheva (Mumbai),Hamburg,standard,25.3,204100.0,45.0,0.996,3
+S099,NSA,NYC,Nhava Sheva (Mumbai),New York / New Jersey,standard,15.9,89100.0,48.0,1.246,4
+S100,SIN,RTM,Singapore,Rotterdam,standard,24.5,109800.0,37.0,1.242,3
+S101,NSA,NYC,Nhava Sheva (Mumbai),New York / New Jersey,high_value,31.3,2674000.0,44.0,1.043,4
+S102,SHA,HAM,Shanghai,Hamburg,standard,12.9,54900.0,64.0,1.173,3
+S103,SZX,RTM,Shenzhen,Rotterdam,high_value,15.7,1769800.0,45.0,0.914,3
+S104,SHA,LAX,Shanghai,Los Angeles / Long Beach,perishable,23.4,456800.0,17.0,1.239,3
+S105,SHA,HAM,Shanghai,Hamburg,standard,26.0,122100.0,23.0,1.127,4
+S106,NSA,HAM,Nhava Sheva (Mumbai),Hamburg,high_value,34.5,3454100.0,38.0,1.194,4
+S107,SHA,NYC,Shanghai,New York / New Jersey,perishable,15.4,181900.0,36.0,1.185,3
+S108,SZX,LAX,Shenzhen,Los Angeles / Long Beach,standard,33.2,177400.0,22.0,1.099,5
+S109,NSA,NYC,Nhava Sheva (Mumbai),New York / New Jersey,standard,3.4,17300.0,58.0,1.176,3
+S110,SHA,RTM,Shanghai,Rotterdam,high_value,10.7,1259900.0,39.0,1.063,5
+S111,SZX,HAM,Shenzhen,Hamburg,perishable,5.3,54800.0,43.0,1.206,3
+S112,SZX,LAX,Shenzhen,Los Angeles / Long Beach,perishable,25.7,347400.0,20.0,0.992,3
+S113,SIN,NYC,Singapore,New York / New Jersey,standard,12.3,121000.0,55.0,0.973,3
+S114,SIN,LAX,Singapore,Los Angeles / Long Beach,standard,10.4,48500.0,26.0,1.085,3
+S115,NSA,NYC,Nhava Sheva (Mumbai),New York / New Jersey,high_value,28.9,3747900.0,57.0,1.063,5
+S116,SZX,RTM,Shenzhen,Rotterdam,standard,18.4,78500.0,49.0,0.929,3
+S117,SHA,LAX,Shanghai,Los Angeles / Long Beach,urgent,24.6,1005200.0,14.0,1.15,3
+S118,NSA,RTM,Nhava Sheva (Mumbai),Rotterdam,standard,8.2,45500.0,37.0,1.154,3
+S119,SZX,NYC,Shenzhen,New York / New Jersey,standard,28.8,179600.0,46.0,0.971,4
+S120,NSA,LAX,Nhava Sheva (Mumbai),Los Angeles / Long Beach,urgent,12.2,340000.0,21.0,1.055,4
+S121,SHA,RTM,Shanghai,Rotterdam,standard,27.5,177200.0,36.0,1.011,4
+S122,SIN,HAM,Singapore,Hamburg,urgent,6.6,378500.0,15.0,1.214,4
+S123,NSA,NYC,Nhava Sheva (Mumbai),New York / New Jersey,standard,3.9,26200.0,58.0,1.082,4
+S124,NSA,RTM,Nhava Sheva (Mumbai),Rotterdam,high_value,15.3,1973600.0,31.0,0.986,4
+S125,SHA,HAM,Shanghai,Hamburg,perishable,30.0,250700.0,25.0,1.011,5
+S126,SIN,NYC,Singapore,New York / New Jersey,perishable,25.6,459600.0,39.0,1.032,4
+S127,SHA,NYC,Shanghai,New York / New Jersey,high_value,7.2,868400.0,41.0,1.096,5
+S128,NSA,LAX,Nhava Sheva (Mumbai),Los Angeles / Long Beach,urgent,9.0,282400.0,24.0,1.206,4
+S129,SIN,RTM,Singapore,Rotterdam,standard,11.1,103300.0,34.0,1.231,5
+S130,SIN,RTM,Singapore,Rotterdam,perishable,17.6,342300.0,35.0,0.948,4
+S131,SHA,NYC,Shanghai,New York / New Jersey,standard,16.0,68600.0,41.0,0.95,4
+S132,SIN,RTM,Singapore,Rotterdam,high_value,13.0,1533500.0,34.0,1.082,3
+S133,NSA,RTM,Nhava Sheva (Mumbai),Rotterdam,perishable,25.7,340500.0,24.0,1.216,4
+S134,SIN,HAM,Singapore,Hamburg,standard,24.1,180400.0,43.0,1.148,5
+S135,SHA,RTM,Shanghai,Rotterdam,urgent,28.4,769300.0,17.0,1.118,5
+S136,SHA,LAX,Shanghai,Los Angeles / Long Beach,high_value,6.3,584200.0,23.0,1.086,4
+S137,SHA,NYC,Shanghai,New York / New Jersey,standard,6.8,45300.0,37.0,0.944,4
+S138,SIN,RTM,Singapore,Rotterdam,perishable,16.1,321700.0,29.0,0.96,4
+S139,SZX,LAX,Shenzhen,Los Angeles / Long Beach,urgent,28.2,1539400.0,12.0,0.962,3
+S140,NSA,RTM,Nhava Sheva (Mumbai),Rotterdam,high_value,13.3,699300.0,30.0,1.05,4
+S141,SZX,RTM,Shenzhen,Rotterdam,perishable,30.3,288200.0,29.0,1.082,5
+S142,SZX,NYC,Shenzhen,New York / New Jersey,perishable,25.4,281300.0,36.0,0.925,3
+S143,SHA,HAM,Shanghai,Hamburg,standard,14.6,84600.0,35.0,0.917,4
+S144,SZX,NYC,Shenzhen,New York / New Jersey,standard,25.8,131800.0,52.0,0.971,5
+S145,NSA,RTM,Nhava Sheva (Mumbai),Rotterdam,standard,14.0,68300.0,28.0,0.944,4
+S146,SZX,LAX,Shenzhen,Los Angeles / Long Beach,standard,34.5,226000.0,25.0,1.135,4
+S147,SZX,HAM,Shenzhen,Hamburg,standard,7.6,62700.0,25.0,1.024,5
+S148,SIN,HAM,Singapore,Hamburg,standard,31.6,195200.0,52.0,1.01,3
+S149,SIN,HAM,Singapore,Hamburg,standard,16.5,125700.0,42.0,0.99,3
+S150,NSA,HAM,Nhava Sheva (Mumbai),Hamburg,perishable,9.4,126100.0,35.0,1.098,5
+S151,SZX,HAM,Shenzhen,Hamburg,high_value,14.3,1641000.0,62.0,1.209,3
+S152,NSA,NYC,Nhava Sheva (Mumbai),New York / New Jersey,standard,18.9,97900.0,48.0,1.062,3
+S153,SHA,RTM,Shanghai,Rotterdam,urgent,5.7,234300.0,30.0,0.93,3
+S154,SHA,NYC,Shanghai,New York / New Jersey,urgent,4.7,264300.0,15.0,1.043,5
+S155,SZX,NYC,Shenzhen,New York / New Jersey,standard,27.1,205900.0,41.0,0.914,5
+S156,SHA,HAM,Shanghai,Hamburg,standard,29.6,158900.0,28.0,0.955,5
+S157,SIN,RTM,Singapore,Rotterdam,perishable,33.2,489200.0,31.0,1.082,5
+S158,SZX,RTM,Shenzhen,Rotterdam,perishable,3.1,32600.0,39.0,1.098,5
+S159,SHA,LAX,Shanghai,Los Angeles / Long Beach,perishable,26.1,235200.0,15.0,1.122,3
+S160,SIN,LAX,Singapore,Los Angeles / Long Beach,standard,23.4,140000.0,24.0,1.09,4
+S161,NSA,RTM,Nhava Sheva (Mumbai),Rotterdam,urgent,33.2,1223200.0,21.0,0.944,3
+S162,SZX,NYC,Shenzhen,New York / New Jersey,standard,29.2,126100.0,42.0,0.923,5
+S163,SZX,HAM,Shenzhen,Hamburg,perishable,24.0,313100.0,22.0,1.013,5
+S164,SHA,HAM,Shanghai,Hamburg,high_value,18.7,2781600.0,31.0,1.104,5
+S165,SIN,HAM,Singapore,Hamburg,standard,16.9,95000.0,40.0,1.081,4
+S166,SIN,LAX,Singapore,Los Angeles / Long Beach,high_value,16.1,871600.0,32.0,0.96,4
+S167,SIN,HAM,Singapore,Hamburg,standard,32.6,226600.0,43.0,1.012,4
+S168,NSA,LAX,Nhava Sheva (Mumbai),Los Angeles / Long Beach,perishable,28.3,332300.0,32.0,1.147,3
+S169,SHA,NYC,Shanghai,New York / New Jersey,high_value,22.8,1698500.0,41.0,1.01,3
+S170,NSA,LAX,Nhava Sheva (Mumbai),Los Angeles / Long Beach,perishable,6.1,111800.0,32.0,1.232,3
+S171,SIN,LAX,Singapore,Los Angeles / Long Beach,high_value,17.7,2367000.0,23.0,1.007,3
+S172,SIN,HAM,Singapore,Hamburg,urgent,23.2,569800.0,13.0,1.15,5
+S173,SHA,RTM,Shanghai,Rotterdam,standard,31.2,299300.0,53.0,1.07,4
+S174,NSA,HAM,Nhava Sheva (Mumbai),Hamburg,high_value,32.0,3479800.0,39.0,1.245,4
+S175,SHA,LAX,Shanghai,Los Angeles / Long Beach,high_value,19.8,848800.0,23.0,1.036,3
+S176,SIN,NYC,Singapore,New York / New Jersey,urgent,18.6,607900.0,22.0,1.056,4
+S177,SHA,NYC,Shanghai,New York / New Jersey,perishable,34.3,640000.0,34.0,1.141,4
+S178,NSA,LAX,Nhava Sheva (Mumbai),Los Angeles / Long Beach,urgent,10.1,431400.0,24.0,0.983,3
+S179,SHA,LAX,Shanghai,Los Angeles / Long Beach,standard,8.7,69500.0,20.0,0.96,3
+S180,SIN,LAX,Singapore,Los Angeles / Long Beach,high_value,14.6,740400.0,31.0,1.004,4
+S181,NSA,LAX,Nhava Sheva (Mumbai),Los Angeles / Long Beach,standard,14.4,120300.0,43.0,1.055,4
+S182,SHA,HAM,Shanghai,Hamburg,high_value,10.7,1380800.0,21.0,1.108,4
+S183,SIN,HAM,Singapore,Hamburg,urgent,27.3,909000.0,16.0,1.178,3
+S184,NSA,LAX,Nhava Sheva (Mumbai),Los Angeles / Long Beach,urgent,27.0,1007900.0,22.0,0.959,5
+S185,SIN,NYC,Singapore,New York / New Jersey,standard,25.6,138400.0,46.0,0.948,5
+S186,SHA,HAM,Shanghai,Hamburg,urgent,3.1,165200.0,12.0,1.195,5
+S187,SHA,NYC,Shanghai,New York / New Jersey,high_value,6.0,830900.0,51.0,0.915,4
+S188,SIN,LAX,Singapore,Los Angeles / Long Beach,high_value,32.7,2682200.0,25.0,1.121,5
+S189,SHA,NYC,Shanghai,New York / New Jersey,urgent,22.0,474900.0,30.0,1.13,4
+S190,SZX,HAM,Shenzhen,Hamburg,high_value,23.9,1109400.0,26.0,1.039,5
+S191,NSA,NYC,Nhava Sheva (Mumbai),New York / New Jersey,high_value,19.5,947400.0,44.0,1.004,5
+S192,NSA,RTM,Nhava Sheva (Mumbai),Rotterdam,standard,16.3,109500.0,29.0,1.051,4
+S193,SHA,HAM,Shanghai,Hamburg,standard,33.6,242700.0,69.0,1.005,3
+S194,SIN,NYC,Singapore,New York / New Jersey,standard,7.0,39600.0,50.0,1.027,5
+S195,SIN,LAX,Singapore,Los Angeles / Long Beach,standard,3.3,17100.0,31.0,0.947,4
+S196,SZX,NYC,Shenzhen,New York / New Jersey,standard,24.5,193800.0,45.0,0.996,4
+S197,SHA,RTM,Shanghai,Rotterdam,standard,12.6,100700.0,40.0,1.197,5
+S198,SZX,RTM,Shenzhen,Rotterdam,perishable,12.2,99900.0,41.0,1.111,4
+S199,NSA,HAM,Nhava Sheva (Mumbai),Hamburg,urgent,34.1,1824800.0,18.0,0.953,3
+S200,SZX,HAM,Shenzhen,Hamburg,high_value,28.0,2474900.0,27.0,0.957,5

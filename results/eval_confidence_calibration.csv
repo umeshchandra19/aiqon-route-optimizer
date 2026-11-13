@@ -1,0 +1,5 @@
+tier,n,mean_rel_regret_pct,mean_regret_pct_of_value,oracle_match_pct
+High,20,0.0,0.0,100.0
+Medium,7,4.989731038563269,0.2643888087964982,71.42857142857143
+Low,1,0.0,0.0,100.0
+Only one feasible route,12,51.404122824283746,1.7953720200419037,50.0

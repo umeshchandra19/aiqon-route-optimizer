@@ -1,0 +1,22 @@
+{
+  "n_shipments": 40,
+  "n_route_options": 157,
+  "ours_family_counts": {
+    "Air": 12,
+    "Transpacific / US land-bridge": 9,
+    "Suez / Red Sea": 8,
+    "Panama": 7,
+    "Eurasia rail": 3,
+    "Cape of Good Hope": 1
+  },
+  "ours_confidence_counts": {
+    "High": 20,
+    "High (only feasible option)": 12,
+    "Medium": 7,
+    "Low": 1
+  },
+  "relaxed_decisions": 0,
+  "mean_stability": 0.9063749999999999,
+  "red_sea_air_picks": 17,
+  "red_sea_needs_review": 4
+}
